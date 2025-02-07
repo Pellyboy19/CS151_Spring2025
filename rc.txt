@@ -11,6 +11,6 @@ compile() {
 
 alias workspace='echo $WORKSPACE' # Print the workspace/starting directory
 alias gotoworkspace='cd $WORKSPACE' # Go to the workspace/starting directory
-alias g++='g++ -std=c++23' # Use C++23 standard
+alias g++='g++ -std=c++17' # Use C++17 standard
 alias mec='compile' # Compile and run the cpp file
 

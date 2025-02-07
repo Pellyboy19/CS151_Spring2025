@@ -18,7 +18,8 @@ int main()
 
 	// Fill in the code for the cout statement that will output (with description)
 	// the area of the circle
-    
+     cout << "The circumference of the circle is: " << circumference << " units." << endl;
+    cout << "The area of the circle is: " << area << " square units." << endl;
 
 	return 0;
 }

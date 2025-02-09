@@ -12,3 +12,4 @@ git commit -m "$COMMIT_MESSAGE"
 git push
 
 # ./gpush.sh
+# ./gpush.sh "Added new files"

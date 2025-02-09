@@ -15,7 +15,7 @@ First time only.
 - Go to the directory where you would to place the repository.
 - Run the following commands:
 ```sh
-git clone <forked-repository-url>
+git clone forked-repository-url
 code CS151_Spring2025
 ```
 
@@ -112,7 +112,7 @@ Your work will be saved on your local machine or GitHub Codespaces. However, it 
 gotoworkspace
 git pull
 git add .
-git commit -m "<commit-message>"
+git commit -m "commit-message"
 git push
 ```
 ***OR***
@@ -122,7 +122,7 @@ gotoworkspace
 ```
 You can pass a custom commit message after ./gpush.sh using the following command:
 ```sh
-./gpush.sh "<commit-message>"
+./gpush.sh "commit-message"
 ```
 
 ## Fetching Updates from the Original Repository
@@ -137,10 +137,6 @@ git merge upstream/main
 gotoworkspace
 ./gfetch.sh
 ```
-
-
-
-
 
 ## Make Effective Choices (mec)
 ## Make Efficient Code (mec)

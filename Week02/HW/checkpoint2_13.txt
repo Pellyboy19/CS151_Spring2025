@@ -7,9 +7,10 @@ following literals use?
 
 /* Write your answers below.
 ************************************************************************************************
-
-
-
+'Q'      = 1 byte  // A character literal always takes 1 byte.
+"Q"      = 2 bytes // A string literal includes the character 'Q' + the null terminator '\0'.
+"Sales"  = 6 bytes // A string literal includes the characters 'S', 'a', 'l', 'e', 's' + '\0'.
+'\n'     = 1 byte  // A character literal (newline) is stored as a single byte.
 
 ************************************************************************************************
 */

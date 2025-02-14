@@ -3,7 +3,8 @@ Is the variable name Sales the same as sales? Why or why not?
 /* Write your answer below.
 ************************************************************************************************
 
-
+No, the variable name Sales is not the same as sales in C++.
+Sales and sales are treated as two different variables because uppercase 'S' and lowercase 's' are not the same.
 
 ************************************************************************************************
 */

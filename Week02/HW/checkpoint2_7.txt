@@ -9,7 +9,9 @@ grade_report
 /* Write your answers below.
 ************************************************************************************************
 
-
+Illegal variable names:
+99bottles (cannot start with a number)
+r&d (cannot contain special characters like `&`)
 
 
 ************************************************************************************************

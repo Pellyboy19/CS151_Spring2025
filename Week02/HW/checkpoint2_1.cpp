@@ -1,13 +1,17 @@
 /* The following C++ program will not compile because the lines have been mixed up. */
-int main()
-}
-// A crazy mixed up program
-return 0;
-
 #include <iostream>
-cout << "In 1492 Columbus sailed the ocean blue.";
-{
+
 using namespace std;
+
+int main()
+
+{
+
+cout << "In 1492 Columbus sailed the ocean blue.";
+
+return 0;
+}
+
 /*
 When the lines are properly arranged, the program should display the following
 on the screen:

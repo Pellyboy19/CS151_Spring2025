@@ -4,7 +4,7 @@ integer?
 
 /* Write your answer below.
 ************************************************************************************************
-
+The difference lies in how they represent values, not in their memory allocation
 
 ************************************************************************************************
 */

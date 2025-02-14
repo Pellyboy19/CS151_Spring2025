@@ -8,6 +8,6 @@ if ! git remote get-url upstream &>/dev/null; then
 fi
 
 git fetch upstream
-git merge upstream/main
+git merge upstream/main -m "Merging upstream changes"
 
 # ./gfetch.sh

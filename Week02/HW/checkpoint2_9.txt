@@ -13,7 +13,7 @@ Refer to the data types listed in Table 2-6 for these questions.
 
 (B) unsigned int
 
-    If the intended range was 140,000 to 240,000, then ✅ unsigned int would be best.
+    If the intended range was 140,000 to 240,000, then  unsigned int would be best.
     The range of unsigned int (typically 0 to 4,294,967,295) covers 140,000 to 240,000.
 
 (C)  20L uses more memory

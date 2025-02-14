@@ -1,0 +1,5 @@
+How would you consolidate the following definitions into one statement?
+
+int x = 7;
+int y = 16;
+int z = 28;

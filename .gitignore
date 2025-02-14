@@ -6,4 +6,15 @@ Playground
 .vscode
 a.out
 weeks.sh
-Week*/Results/*
+Graded
+**/package-lock.json
+.env
+.venv
+emails.txt
+send_email.py
+get_emails.py
+hw_reminder.py
+EmailLogs
+HW_Reminders
+link.py
+__pycache__

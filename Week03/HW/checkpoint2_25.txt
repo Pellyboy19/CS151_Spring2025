@@ -1,0 +1,9 @@
+Write statements using the const qualifier to create named constants for the
+following literal values:
+
+Literal Value       Description
+2.71828             Euler’s number (known in mathematics as e)
+5.256E5             Number of minutes in a year
+32.2                The gravitational acceleration constant (in ft/s2)
+9.8                 The gravitational acceleration constant (in m/s2)
+1609                Number of meters in a mile

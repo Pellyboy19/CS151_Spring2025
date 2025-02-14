@@ -1,0 +1,108 @@
+1. How many operands does each of the following types of operators require?
+    _______ Unary
+    _______ Binary
+    _______ Ternary
+
+2. How may the double variables temp, weight, and age be defined in one statement?
+
+
+3. How can the values of three variables length, breadth, and height be displayed
+using one statement, such that each variable is displayed in a new line?
+
+
+4. Assume that x is an integer variable, y is a floating-point variable, and z is a character
+variable. Write statements in C++ to perform the following operations:
+
+    (A) Add 10 to x.
+
+    (B) Square the value of y.
+
+    (C) Divide x by 7 and store the result in y.
+
+    (D) Store '&' in z.
+
+    (E) Display the values of y and z on the screen.
+
+    (F) Display the rightmost digit of x on the screen.
+
+    (G) Display the number of bytes used by an integer variable.
+
+
+5. Is the following comment written using single-line or multi-line comment symbols?
+    /* This program was written by M. A. Codewriter*/
+
+
+6. Is the following comment written using single-line or multi-line comment symbols?
+    // This program was written by M. A. Codewriter
+
+
+7. Modify the following program so it prints two blank lines between each line of text.
+
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        cout << "Two mandolins like creatures in the";
+        cout << "dark";
+        cout << "Creating the agony of ecstasy.";
+        cout << "                    - George Barker";
+        return 0;
+    }
+
+8. What will the following programs print on the screen?
+
+    (A) #include <iostream>
+        using namespace std;
+        
+        int main()
+        {
+            int freeze = 32, boil = 212;
+            freeze = 0;
+            boil = 100;
+            cout << freeze << endl << boil << endl;
+            return 0;
+        }
+
+    (B) #include <iostream>
+        using namespace std;
+
+        int main()
+        {
+            int x = 0, y = 2;
+            x = y * 4;
+            cout << x << endl << y << endl;
+            return 0;
+        }
+    (C) #include <iostream>
+        using namespace std;
+
+        int main()
+        {
+            cout << "I am the incredible";
+            cout << "computing\nmachine";
+            cout << "\nand I will\namaze\n";
+            cout << "you.";
+            return 0;
+        }
+    (D) #include <iostream>
+        using namespace std;
+
+        int main()
+        {
+            cout << "Be careful\n";
+            cout << "This might/n be a trick ";
+            cout << "question\n";
+            return 0;
+        }
+
+    (E) #include <iostream>
+        using namespace std;
+        
+        int main()
+        {
+            int a, x = 23;
+            a = x % 2;
+            cout << x << endl << a << endl;
+            return 0;
+        }

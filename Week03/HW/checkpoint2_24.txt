@@ -1,0 +1,4 @@
+Is the following an example of integer division or floating-point division? What
+value will be stored in portion?
+
+portion = 70 / 3;

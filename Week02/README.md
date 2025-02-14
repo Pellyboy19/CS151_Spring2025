@@ -1,5 +1,5 @@
 ## Slides
-- [Chapter 2](Chapter02.pdf)
+- [Chapter 2](../Slides/Chapter02.pdf)
 
 ## Homework
 - Checkpoint 2.1 - 2.17 (inclusive)

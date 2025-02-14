@@ -19,7 +19,7 @@ int main()
     hour = duration / 60;
     minutes = duration % 60;
 
-    cout << "Duration: " << hour << " hour(s) and " << minutes << " minute(s)." << endl;700
+    cout << "Duration: " << hour << " hour(s) and " << minutes << " minute(s)." << endl;
     
 
 

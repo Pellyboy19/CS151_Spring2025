@@ -1,54 +1,60 @@
 1. How many operands does each of the following types of operators require?
-    _______ Unary
-    _______ Binary
-    _______ Ternary
+    _1______ Unary
+    ___2____ Binary
+    __3_____ Ternary
 
 2. How may the double variables temp, weight, and age be defined in one statement?
 
+This declares three double variables in a single statement.
 
 3. How can the values of three variables length, breadth, and height be displayed
 using one statement, such that each variable is displayed in a new line?
 
+endl ensures that each variable is printed on a new line.
 
 4. Assume that x is an integer variable, y is a floating-point variable, and z is a character
 variable. Write statements in C++ to perform the following operations:
 
     (A) Add 10 to x.
-
+x += 10;x += 10;
     (B) Square the value of y.
-
+y = y * y;
     (C) Divide x by 7 and store the result in y.
-
+y = static_cast<float>(x) / 7;
     (D) Store '&' in z.
-
+z = '&';
     (E) Display the values of y and z on the screen.
-
+cout << y << " " << z << endl;
     (F) Display the rightmost digit of x on the screen.
-
+cout << x % 10 << endl;
     (G) Display the number of bytes used by an integer variable.
-
+cout << sizeof(int) << endl;
 
 5. Is the following comment written using single-line or multi-line comment symbols?
-    /* This program was written by M. A. Codewriter*/
+    /* This program was written by M. A. Codewriter*/ 
+
+    multi-line comment format.
 
 
 6. Is the following comment written using single-line or multi-line comment symbols?
     // This program was written by M. A. Codewriter
 
+Single-line Comment
 
 7. Modify the following program so it prints two blank lines between each line of text.
 
     #include <iostream>
-    using namespace std;
+using namespace std;
 
-    int main()
-    {
-        cout << "Two mandolins like creatures in the";
-        cout << "dark";
-        cout << "Creating the agony of ecstasy.";
-        cout << "                    - George Barker";
-        return 0;
-    }
+int main()
+{
+    cout << "Two mandolins like creatures in the\n\n\n";
+    cout << "dark\n\n\n";
+    cout << "Creating the agony of ecstasy.\n\n\n";
+    cout << "                    - George Barker\n\n";
+    return 0;
+}
+
 
 8. What will the following programs print on the screen?
 
@@ -64,6 +70,9 @@ variable. Write statements in C++ to perform the following operations:
             return 0;
         }
 
+0
+100
+
     (B) #include <iostream>
         using namespace std;
 
@@ -74,6 +83,11 @@ variable. Write statements in C++ to perform the following operations:
             cout << x << endl << y << endl;
             return 0;
         }
+
+
+        8
+        2
+
     (C) #include <iostream>
         using namespace std;
 
@@ -85,6 +99,13 @@ variable. Write statements in C++ to perform the following operations:
             cout << "you.";
             return 0;
         }
+        I am the incrediblecomputing
+        machine
+        and I will
+        amaze
+        you.
+
+
     (D) #include <iostream>
         using namespace std;
 
@@ -96,6 +117,9 @@ variable. Write statements in C++ to perform the following operations:
             return 0;
         }
 
+        Be careful
+        This might/n be a trick question
+
     (E) #include <iostream>
         using namespace std;
         
@@ -106,3 +130,6 @@ variable. Write statements in C++ to perform the following operations:
             cout << x << endl << a << endl;
             return 0;
         }
+
+        23
+        1

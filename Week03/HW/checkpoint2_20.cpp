@@ -10,3 +10,17 @@ My age is 26 and my weight is 180 pounds.
 (Feel free to lie to the computer about your age and your weight—it’ll
 never know!)
 */
+
+
+#include <iostream>
+
+int main() {
+    // Declare and initialize variables
+    int age = 26;         // You can change this to your actual (or fake) age
+    float weight = 180.0; // You can change this to your actual (or fake) weight
+
+    // Display the output
+    std::cout << "My age is " << age << " and my weight is " << weight << " pounds." << std::endl;
+
+    return 0;
+}

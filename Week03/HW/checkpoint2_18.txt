@@ -1,2 +1,7 @@
 Yes or No: Is there an unsigned floating-point data type? If so, what is it?
 
+
+No, there is no unsigned floating-point data type.
+
+Floating-point numbers inherently have a sign bit in their representation (IEEE 754 standard),
+ meaning they always support both positive and negative values. Unlike integers, which can be signed or unsigned, floating-point numbers do not have an "unsigned" variant because their encoding always includes a sign bit.

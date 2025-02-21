@@ -7,3 +7,25 @@ Literal Value       Description
 32.2                The gravitational acceleration constant (in ft/s2)
 9.8                 The gravitational acceleration constant (in m/s2)
 1609                Number of meters in a mile
+
+
+#include <iostream>
+
+int main() {
+    
+    const double EULER_NUMBER = 2.71828;  
+    const double MINUTES_IN_YEAR = 5.256E5;  
+    const double GRAVITY_FT_S2 = 32.2;  
+    const double GRAVITY_M_S2 = 9.8;  
+    const int METERS_IN_MILE = 1609;  
+
+   
+    std::cout << "Euler’s Number (e): " << EULER_NUMBER << std::endl;
+    std::cout << "Minutes in a Year: " << MINUTES_IN_YEAR << std::endl;
+    std::cout << "Gravity (ft/s²): " << GRAVITY_FT_S2 << std::endl;
+    std::cout << "Gravity (m/s²): " << GRAVITY_M_S2 << std::endl;
+    std::cout << "Meters in a Mile: " << METERS_IN_MILE << std::endl;
+
+    return 0;
+}
+

@@ -1,0 +1,5 @@
+Write a multiple assignment statement that assigns 0 to the variables total,
+subtotal, tax, and shipping.
+
+ANSWER BELOW
+*******************************************************************************************

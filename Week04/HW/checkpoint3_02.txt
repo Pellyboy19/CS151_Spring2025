@@ -1,0 +1,5 @@
+True or false: cin requires the user to press the Enter key when finished entering
+data.
+
+ANSWER BELOW
+*******************************************************************************************

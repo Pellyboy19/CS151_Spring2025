@@ -1,0 +1,10 @@
+Assume value is an integer variable. If the user enters 3.14 in response to the
+following programming statement, what will be stored in value?
+cin >> value;
+(A) 3.14
+(B) 3
+(C) 0
+(D) Nothing. An error message is displayed.
+
+ANSWER BELOW
+*******************************************************************************************

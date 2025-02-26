@@ -1,0 +1,23 @@
+1. Create a file in the Week04/Lab/ folder called hypotenuse.cpp
+2. Write a program that asks the user for the lengths
+    of the two sides of a right triangle and then prints the length of the hypotenuse.
+3. The program should have 3 variables,
+    side_a, side_b, and side_c.
+4. a^2 + b^2 = c^2
+5. side_c = c = hypotenuse
+6. Include the cmath library: #include <cmath>
+7. Use the sqrt() function to calculate the hypotenuse
+8. Use of the pow() function is optional
+9. Test the program with the following sides:
+    side_a = 3, side_b = 4
+    The output should be:
+    side_c = 5
+
+    side_a = 5, side_b = 12
+    The output should be:
+    side_c = 13
+
+    side_a = 8, side_b = 15
+    The output should be:
+    side_c = 17
+    

@@ -1,0 +1,4 @@
+What header file must be included in programs using cin?
+
+ANSWER BELOW
+*******************************************************************************************

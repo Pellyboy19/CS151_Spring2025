@@ -35,7 +35,7 @@ source ~/.zshrc
 cat rc.txt >> ~/.bashrc
 source ~/.bashrc
 ```
-## 4. Run the following command:**
+## 4. Run the following command
 ```sh
 ./setup.sh
 ```

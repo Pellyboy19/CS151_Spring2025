@@ -1,0 +1,13 @@
+Write statements using combined assignment operators to perform the following:
+(A) Add 6 to x.
+(B) Subtract 4 from amount.
+(C) Multiply y by 4.
+(D) Divide total by 27.
+(E) Store in x the remainder of x divided by 7.
+(F) Add y * 5 to x.
+(G) Subtract discount times 4 from total.
+(H) Multiply increase by salesRep times 5.
+(I) Divide profit by shares minus 1000.
+
+ANSWER BELOW
+*******************************************************************************************

@@ -1,0 +1,8 @@
+A program has the following variable definitions.
+long miles;
+int feet;
+float inches;
+Write one cin statement that reads a value into each of these variables.
+
+ANSWER BELOW
+*******************************************************************************************

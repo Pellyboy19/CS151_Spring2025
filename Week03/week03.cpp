@@ -16,15 +16,26 @@ int main()
 
     // cout << hello << endl;
 
-    bool check = 67;
-    cout << boolalpha << check << endl;
+    // bool check = 67;
+    // cout << boolalpha << check << endl;
 
-    auto word = "test";
-    cout << word << endl;
+    // auto word = "test";
+    // cout << word << endl;
 
-    const double PI = 3.1415; // This is pi
+    // const double PI = 3.1415; // This is pi
     // PI = 3.14159;
-    cout << PI << endl;
+    // cout << PI << endl;
 
+    /*
+    string name;
+    cout << "What's your name?\n";
+    cin >> name;
+    cout << "Hello " << name << "!\n";
+    */
+
+    int minutes;
+    cout << "How many minutes are in an hour?\n";
+    cin >> minutes;
+    cout << "There are " << minutes << " minutes in an hour.\n";
 
 }

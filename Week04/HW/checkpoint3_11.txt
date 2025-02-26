@@ -1,0 +1,17 @@
+Assume the following variable definitions:
+int a = 5, b = 12;
+double x = 3.4, z = 9.1;
+What are the values of the following expressions?
+(A) b / a
+(B) x * a
+(C) static_cast<double>(b / a)
+(D) static_cast<double>(b) / a
+(E) b / static_cast<double>(a)
+(F) static_cast<double>(b) / static_cast<double>(a)
+(G) b / static_cast<int>(x)
+(H) static_cast<int>(x) * static_cast<int>(z)
+(I) static_cast<int>(x * z)
+(J) static_cast<double>(static_cast<int>(x) * static_cast<int>(z))
+
+ANSWER BELOW
+*******************************************************************************************

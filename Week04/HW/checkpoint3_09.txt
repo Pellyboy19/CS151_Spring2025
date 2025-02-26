@@ -24,3 +24,8 @@ If the User Enters...
 The Program will Display What Number(Strored in value3)?
 ANSWER BELOW
 *******************************************************************************************
+If the User Enters...   The Program will Display (value3)
+2                       6.00
+5                       27.00
+4.3                     20.49
+6                       38.00

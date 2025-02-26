@@ -2,15 +2,26 @@
 what to do. How would you improve the program?*/
 
 // This program multiplies two numbers and displays the result.
+// This program multiplies two numbers and displays the result.
 #include <iostream>
 using namespace std;
 
 int main()
 {
     double first, second, product;
+
+   
+    cout << "Enter the first number: ";
+    cin >> first;
     
-    cin >> first >> second;
+    cout << "Enter the second number: ";
+    cin >> second;
+
+  
     product = first * second;
-    cout << product;
+
+   
+    cout << "The product of " << first << " and " << second << " is: " << product << endl;
+
     return 0;
 }

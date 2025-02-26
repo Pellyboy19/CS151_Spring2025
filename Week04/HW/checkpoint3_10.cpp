@@ -8,17 +8,32 @@ r is the radius of the tank, and
 h is the height of the tank.
 */
 #include <iostream>
-#include <cmath>
+#include <cmath> 
 using namespace std;
 
 int main()
 {
+    
     double volume, radius, height;
+    const double PI = 3.14159; 
+
+    
     cout << "This program will tell you the volume of\n";
     cout << "a cylinder-shaped fuel tank.\n";
+
+    
     cout << "How tall is the tank? ";
     cin >> height;
+
+    
     cout << "What is the radius of the tank? ";
     cin >> radius;
-    // You must complete the program.
+
+    
+    volume = PI * pow(radius, 2) * height;
+
+    
+    cout << "The volume of the fuel tank is: " << volume << " cubic units." << endl;
+
+    return 0;
 }

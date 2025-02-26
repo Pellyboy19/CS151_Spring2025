@@ -15,3 +15,13 @@ What are the values of the following expressions?
 
 ANSWER BELOW
 *******************************************************************************************
+(A) b / a = 2
+(B) x * a = 17.0
+(C) static_cast<double>(b / a) = 2.0
+(D) static_cast<double>(b) / a = 2.4
+(E) b / static_cast<double>(a) = 2.4
+(F) static_cast<double>(b) / static_cast<double>(a) = 2.4
+(G) b / static_cast<int>(x) = 4
+(H) static_cast<int>(x) * static_cast<int>(z) = 27
+(I) static_cast<int>(x * z) = 30
+(J) static_cast<double>(static_cast<int>(x) * static_cast<int>(z)) = 27.0

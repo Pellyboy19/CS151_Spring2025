@@ -3,3 +3,6 @@ data.
 
 ANSWER BELOW
 *******************************************************************************************
+True
+
+cin requires the user to press the Enter key to signal that they have finished entering data.

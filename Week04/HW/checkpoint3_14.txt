@@ -3,3 +3,4 @@ subtotal, tax, and shipping.
 
 ANSWER BELOW
 *******************************************************************************************
+total = subtotal = tax = shipping = 0;

@@ -1,0 +1,6 @@
+Assume the variables angle1 and angle2 hold angles stored in radians. Write
+a statement that adds the sine of angle1 to the cosine of angle2 and stores the
+result in the variable x.
+
+ANSWER BELOW
+*******************************************************************************

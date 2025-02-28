@@ -1,0 +1,11 @@
+The cosecant of the angle a is
+    1
+  -----
+  sin a
+  
+Write a statement that calculates the cosecant of the angle stored in the variable
+a, and stores it in the variable y.
+
+
+ANSWER BELOW
+*******************************************************************************

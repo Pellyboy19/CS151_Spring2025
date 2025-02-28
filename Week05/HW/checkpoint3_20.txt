@@ -1,0 +1,7 @@
+Write a short description of each of the following functions:
+cos     log     sin
+exp     log10   sqrt
+fmod    pow     tan
+
+ANSWER BELOW
+*******************************************************************************

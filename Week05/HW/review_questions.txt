@@ -1,0 +1,122 @@
+1. Assume that the following variables are defined:
+    int length;
+    double breadth;
+
+    What will be the values in length and breadth, if the user enters 9.5 and 10.5 in
+    response to the statement, cin >> length >> breadth?
+
+2. Assume a string object has been defined as follows:
+
+    string description;
+
+    (A) Write a cin statement that reads in a one-word string.
+    (B) Write a statement that reads in a string that can contain multiple words separated
+        by blanks.
+
+3. What header files must be included in the following program?
+
+    int main()
+    {
+        double amount = 89.7;
+        cout << showpoint << fixed;
+        cout << setw(8) << amount << endl;
+        return 0;
+    }
+
+4. Complete the following table by determining the value of each expression.
+
+    Expression                          Value
+    28 / 4 − 2                          
+    6 + 12 * 2 − 8                      
+    4 + 8 * 2                           
+    6 + 17 % 3 − 2                      
+    2 + 22 * (9 − 7)                    
+    (8 + 7) * 2                         
+    (16 + 7) % 2 − 1                    
+    12 / (10 − 6)                       
+    (19 − 3) * (2 + 2) / 4              
+
+5. Write C++ expressions for the following algebraic expressions:
+
+    a = 12x
+    z = 5x + 14y + 6k
+    y = x^4
+    g = h + 12
+        -------
+          4k
+    c =  a^3
+        -------
+        b^2k^4
+
+
+6. Assume a program has the following variable definitions:
+    int units;
+    float mass;
+    double weight;
+
+    and the following statement:
+
+    weight = mass * units;
+
+    Which automatic data type conversion will take place?
+    (A) mass is demoted to an int, units remains an int, and the result of mass * units
+        is an int.
+    (B) units is promoted to a float, mass remains a float, and the result of mass *
+        units is a float.
+    (C) units is promoted to a float, mass remains a float, and the result of mass *
+        units is a double.
+
+7. Assume a program has the following variable definitions:
+
+    int a, b = 2;
+    float c = 4.2;
+
+    and the following statement:
+
+    a = b * c;
+
+    What value will be stored in a?
+    (A) 8.4
+    (B) 8
+    (C) 0
+    (D) None of the above
+
+8. Assume qty and salesReps are both integers. Use a type cast expression to rewrite
+    the following statement so it will no longer perform integer division.
+    unitsEach = qty / salesReps;
+
+9. Rewrite the following variable definition so that the variable is a named constant.
+    int rate;
+
+10. Complete the following table by providing statements with combined assignment
+    operators for the right-hand column. The statements should be equivalent to the state-
+    ments in the left-hand column.
+
+    Statements with                     Statements with
+    Assignment Operator                 Combined Assignment Operator
+    x = x + 5;                          
+    total = total + subtotal;           
+    dist = dist / rep;                  
+    ppl = ppl * period;                 
+    inv = inv − shrinkage;              
+    num = num % 2;                      
+
+11. Write a multiple assignment statement that can be used instead of the following group
+    of assignment statements:
+    
+    east = 1;
+    west = 1;
+    north = 1;
+    south = 1;
+
+12. Write a cout statement so the variable divSales is displayed in a field of 8 spaces, in
+    fixed-point notation, with a precision of 2 decimal places. The decimal point should
+    always be displayed.
+
+13. Write a cout statement so the variable totalAge is displayed in a field of 12 spaces,
+    in fixed-point notation, with a precision of 4 decimal places.
+
+14. A variable velocity has a value of 180.67245612456. Write a cout statement to
+    display it in a field of six spaces left-justified. Write another cout statement to dis-
+    play it in 18 spaces with a precision of 12 decimal spaces, in fixed notation, with
+    trailing zeros.

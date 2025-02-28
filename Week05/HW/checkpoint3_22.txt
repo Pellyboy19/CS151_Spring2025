@@ -1,0 +1,6 @@
+To find the cube root (the third root) of a number, raise it to the power of ⅓. To
+find the fourth root of a number, raise it to the power of ¼. Write a statement
+that will find the fifth root of the variable x and store the result in the variable y.
+
+ANSWER BELOW
+*******************************************************************************

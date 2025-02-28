@@ -6,7 +6,7 @@ the amount of sales tax, and the total.
 Include iomanip and use the setprecision manipulator to format the output
 to two decimal places. Allign the output in columns using the setw manipulator.
 
-Items        Prices
+Items       Prices
 item1        $X.XX
 item2        $X.XX
 item3        $X.XX

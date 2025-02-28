@@ -18,6 +18,7 @@ int main() {
   
     discriminant = (b * b) - (4 * a * c);
 
+
  
     if (discriminant >= 0) {
       
@@ -30,6 +31,7 @@ int main() {
     } else {
         cout << "No real roots exist." << endl;
     }
+
 
     return 0;
 }

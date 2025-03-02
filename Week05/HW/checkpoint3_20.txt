@@ -5,3 +5,71 @@ fmod    pow     tan
 
 ANSWER BELOW
 *******************************************************************************
+
+cos(x)
+
+Calculates the cosine of the argument 
+𝑥
+x, where 
+𝑥
+x is in radians.
+log(x)
+
+Calculates the natural (base 
+𝑒
+e) logarithm of 
+𝑥
+x.
+sin(x)
+
+Calculates the sine of the argument 
+𝑥
+x, where 
+𝑥
+x is in radians.
+exp(x)
+
+Returns 
+𝑒
+𝑥
+e 
+x
+ , where 
+𝑒
+e is the base of the natural logarithm (approximately 2.71828).
+log10(x)
+
+Calculates the common (base 10) logarithm of 
+𝑥
+x.
+sqrt(x)
+
+Returns the non-negative square root of 
+𝑥
+x.
+fmod(x, y)
+
+Computes the remainder of the division 
+𝑥
+÷
+𝑦
+x÷y.
+pow(x, y)
+
+Raises 
+𝑥
+x to the power of 
+𝑦
+y (i.e., 
+𝑥
+𝑦
+x 
+y
+ ).
+tan(x)
+
+Calculates the tangent of the argument 
+𝑥
+x, where 
+𝑥
+x is in radians.

@@ -4,3 +4,5 @@ that will find the fifth root of the variable x and store the result in the vari
 
 ANSWER BELOW
 *******************************************************************************
+
+y = pow(x, 1.0 / 5.0);

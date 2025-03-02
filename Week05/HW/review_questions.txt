@@ -5,13 +5,23 @@
     What will be the values in length and breadth, if the user enters 9.5 and 10.5 in
     response to the statement, cin >> length >> breadth?
 
+    length (an int) will receive 9 (the fractional part .5 is discarded).
+breadth (a double) will receive 10.5.
+
 2. Assume a string object has been defined as follows:
 
     string description;
 
     (A) Write a cin statement that reads in a one-word string.
+
+    cin >> description;
+
     (B) Write a statement that reads in a string that can contain multiple words separated
         by blanks.
+
+        
+getline(cin, description);
+
 
 3. What header files must be included in the following program?
 
@@ -23,29 +33,36 @@
         return 0;
     }
 
+<iostream> for std::cout.
+<iomanip> for manipulators like showpoint, fixed, and setw.
+
 4. Complete the following table by determining the value of each expression.
 
     Expression                          Value
-    28 / 4 − 2                          
-    6 + 12 * 2 − 8                      
-    4 + 8 * 2                           
-    6 + 17 % 3 − 2                      
-    2 + 22 * (9 − 7)                    
-    (8 + 7) * 2                         
-    (16 + 7) % 2 − 1                    
-    12 / (10 − 6)                       
-    (19 − 3) * (2 + 2) / 4              
+   28 / 4 - 2	28 / 4 = 7 ⇒ 7 - 2 = 	5
+6 + 12 * 2 - 8	12 * 2 = 24 ⇒ 6 + 24 = 30 ⇒ 30 - 8 = 	22
+4 + 8 * 2	8 * 2 = 16 ⇒ 4 + 16 = 	20
+6 + 17 % 3 - 2	17 % 3 = 2 ⇒ 6 + 2 = 8 ⇒ 8 - 2 = 	6
+2 + 22 * (9 - 7)	(9 - 7) = 2 ⇒ 22 * 2 = 44 ⇒ 2 + 44 = 	46
+(8 + 7) * 2	(8 + 7) = 15 ⇒ 15 * 2 = 	30
+(16 + 7) % 2 - 1	(16 + 7) = 23 ⇒ 23 % 2 = 1 ⇒ 1 - 1 = 	0
+12 / (10 - 6)	(10 - 6) = 4 ⇒ 12 / 4 = 	3
+(19 - 3) * (2 + 2) / 4	(19 - 3) = 16 ⇒ (2 + 2) = 4 ⇒ 16 * 4 = 64 ⇒ 64 / 4 = 	16
 
 5. Write C++ expressions for the following algebraic expressions:
 
-    a = 12x
-    z = 5x + 14y + 6k
-    y = x^4
-    g = h + 12
-        -------
+    a = 12x.  a = 12 * x;
+
+    z = 5x + 14y + 6k.    z = 5 * x + 14 * y + 6 * k;
+
+    y = x^4.   y = pow(x, 4.0);
+
+    g = h + 12.  
+        -------       g = (h + 12) / (4 * k);
           4k
+
     c =  a^3
-        -------
+        -------      c = pow(a, 3) / ( pow(b, 2) * pow(k, 4) );
         b^2k^4
 
 
@@ -66,6 +83,9 @@
     (C) units is promoted to a float, mass remains a float, and the result of mass *
         units is a double.
 
+The correct choice is: (C) Units is promoted to a float, mass remains a float, and the result is then promoted to double when stored in weight.
+
+
 7. Assume a program has the following variable definitions:
 
     int a, b = 2;
@@ -81,12 +101,20 @@
     (C) 0
     (D) None of the above
 
+    The correct answer is: (B) 8.
+
 8. Assume qty and salesReps are both integers. Use a type cast expression to rewrite
     the following statement so it will no longer perform integer division.
     unitsEach = qty / salesReps;
 
+unitsEach = static_cast<double>(qty) / salesReps;
+
+
 9. Rewrite the following variable definition so that the variable is a named constant.
     int rate;
+
+    const int RATE =  
+
 
 10. Complete the following table by providing statements with combined assignment
     operators for the right-hand column. The statements should be equivalent to the state-
@@ -94,12 +122,12 @@
 
     Statements with                     Statements with
     Assignment Operator                 Combined Assignment Operator
-    x = x + 5;                          
-    total = total + subtotal;           
-    dist = dist / rep;                  
-    ppl = ppl * period;                 
-    inv = inv − shrinkage;              
-    num = num % 2;                      
+    x = x + 5;	        x += 5;
+total = total + subtotal;	      total += subtotal;
+dist = dist / rep;	       dist /= rep;
+ppl = ppl * period;	      ppl *= period;
+inv = inv - shrinkage;	     inv -= shrinkage;
+num = num % 2;	        num %= 2;
 
 11. Write a multiple assignment statement that can be used instead of the following group
     of assignment statements:
@@ -109,14 +137,33 @@
     north = 1;
     south = 1;
 
+    east = west = north = south = 1;
+
+
 12. Write a cout statement so the variable divSales is displayed in a field of 8 spaces, in
     fixed-point notation, with a precision of 2 decimal places. The decimal point should
     always be displayed.
 
+cout << fixed << showpoint << setprecision(2) << setw(8) << divSales << endl;
+
 13. Write a cout statement so the variable totalAge is displayed in a field of 12 spaces,
     in fixed-point notation, with a precision of 4 decimal places.
+
+    cout << fixed << showpoint << setprecision(4) << setw(12) << totalAge << endl;
+
 
 14. A variable velocity has a value of 180.67245612456. Write a cout statement to
     display it in a field of six spaces left-justified. Write another cout statement to dis-
     play it in 18 spaces with a precision of 12 decimal spaces, in fixed notation, with
     trailing zeros.
+
+    cout << left << setw(6) << velocity << endl;
+
+    cout << right
+     << fixed
+     << showpoint
+     << setprecision(12)
+     << setw(18)
+     << velocity
+     << endl;
+

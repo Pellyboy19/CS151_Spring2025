@@ -4,3 +4,5 @@ result in the variable x.
 
 ANSWER BELOW
 *******************************************************************************
+
+x = sin(angle1) + cos(angle2);

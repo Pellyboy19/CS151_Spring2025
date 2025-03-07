@@ -1,0 +1,5 @@
+Write an if statement that prints the message “The number is not valid” if the
+variable speed is outside the range 0 through 200.
+
+ANSWER BELOW
+*******************************************************************************

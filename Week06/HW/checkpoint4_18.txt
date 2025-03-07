@@ -1,0 +1,17 @@
+The following truth table shows various combinations of the values true and
+false connected by a logical operator. Complete the table by indicating if the
+result of such a combination is True or False.
+------------------------------------------------------
+Logical Expression              Result (True or False)
+------------------------------------------------------
+true && false                   
+true && true                    
+false && true                   
+false && false                  
+true || false                   
+true || true                    
+false || true                   
+false || false                  
+!true                           
+!false                          
+------------------------------------------------------

@@ -1,0 +1,9 @@
+True or False: Both of the following if statements perform the same operation.
+
+if (sales > 10000)
+    commissionRate = 0.15;
+
+if (sales > 10000) commissionRate = 0.15;
+
+ANSWER BELOW
+*******************************************************************************

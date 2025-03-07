@@ -1,0 +1,21 @@
+If you executed the following code, what would it display if the user enters 5?
+What if the user enters 15? What if the user enters 30? What if the user enters −1?
+
+int number;
+cout << "Enter a number: ";
+cin >> number;
+if (number > 0)
+{
+    cout << "Zero\n";
+    if (number > 10)
+    {
+        cout << "Ten\n";
+        if (number > 20)
+        {
+            cout << "Twenty\n";
+        }
+    }
+}
+
+ANSWER BELOW
+*******************************************************************************

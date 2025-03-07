@@ -1,0 +1,12 @@
+Assuming x is 5, y is 6, and z is 8, indicate whether each of the following
+relational expressions is true or false:
+(A) x == 5
+(B) 7 <= (x + 2)
+(C) z < 4
+(D) (2 + x) != y
+(E) z != 4
+(F) x >= 9
+(G) x <= (y * 2)
+
+ANSWER BELOW
+*******************************************************************************

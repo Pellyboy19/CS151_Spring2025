@@ -1,0 +1,26 @@
+Create a file in your Week06/Lab folder called math.cpp
+Write a program that generates a math exercise for the user.
+
+The program should first ask for which operation an exercise should be generated. The
+possibilities are addition (+), subtraction (-), multiplication (*), and division (/).
+
+After selecting an operation, the user should answer the following question:
+    What is the maximum value for the input values of the exercise?
+
+The answer to this question must be stored in a variable maximumValue.
+
+Next, the program should ask
+    Are negative values allowed in the exercise?
+    
+The possible answers for the question are “Y” and “N”.
+
+The program will then generate two random numbers. If the user allows negative
+values, the random numbers must be generated in the range from –maximumValue to
++maximumValue; if the user allows only positive values, the range is restricted from 0
+to maximumValue. Moreover, if only positive numbers are allowed and subtraction
+was chosen, the second random value must be less than the first random value.
+
+Finally, the program will show the generated exercise, depending on the chosen
+operation and the numbers randomly generated, and ask the user for the correct solu-
+tion. If the user solves the exercise correctly, the program will print out a congratula-
+tory message.

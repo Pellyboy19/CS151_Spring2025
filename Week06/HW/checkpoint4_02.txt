@@ -1,0 +1,8 @@
+Indicate whether the following statements about relational expressions are correct
+or incorrect:
+(A) x <= y is the same as y > x.
+(B) x != y is the same as y >= x.
+(C) x >= y is the same as y <= x.
+
+ANSWER BELOW
+*******************************************************************************

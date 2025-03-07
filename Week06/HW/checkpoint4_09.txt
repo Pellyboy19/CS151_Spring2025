@@ -1,0 +1,10 @@
+True or false: Both of the following if statements perform the same operation.
+
+if (calls == 20)
+    rate *= 0.5;
+
+if (calls = 20)
+    rate *= 0.5;
+
+ANSWER BELOW
+*******************************************************************************

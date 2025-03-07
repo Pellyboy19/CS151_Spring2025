@@ -1,0 +1,10 @@
+Answer the following questions with a yes or no:
+
+(A) If it is true that x > y and it is also true that x < z, does that mean y < z is true?
+
+(B) If it is true that x >= y and it is also true that z == x, does that mean that z == y is true?
+
+(C) If it is true that x != y and it is also true that x != z, does that mean that z != y is true?
+
+ANSWER BELOW
+*******************************************************************************

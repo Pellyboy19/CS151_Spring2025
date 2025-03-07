@@ -1,0 +1,9 @@
+The following code segment is syntactically correct, but it appears to contain a
+logic error. Can you find the error?
+
+if (interestRate > .07)
+    cout << "This account earns a $10 bonus.\n";
+    balance += 10.0;
+
+ANSWER BELOW
+*******************************************************************************

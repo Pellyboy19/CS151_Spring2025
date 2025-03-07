@@ -46,7 +46,7 @@ This is only required if you've never connected your local machine to your GitHu
 - add your github username and email to the git configuration
 ```sh
 git config --global user.name "github-username"
-git config --global user.email github-email
+git config --global user.email "github-email"
 ```
 #
 #

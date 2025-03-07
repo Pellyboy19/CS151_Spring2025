@@ -1,0 +1,12 @@
+Indicate whether each of the following relational expressions is True or False.
+Refer to the ASCII table in Appendix A if necessary.
+
+(A) 'a' < 'z'
+(B) 'a' == 'A'
+(C) '5' < '7'
+(D) 'a' < 'A'
+(E) '1' == 1
+(F) '1' == 49
+
+ANSWER BELOW
+*******************************************************************************

@@ -1,0 +1,13 @@
+Indicate whether each of the following relational expressions is True or False.
+Refer to the ASCII table in Appendix A if necessary.
+
+(A) "Bill" == "BILL"
+(B) "Bill" < "BILL"
+(C) "Bill" < "Bob"
+(D) "189" > "23"
+(E) "189" > "Bill"
+(F) "Mary" < "MaryEllen"
+(G) "MaryEllen" < "Mary Ellen"
+
+ANSWER BELOW
+*******************************************************************************

@@ -1,0 +1,5 @@
+Write an if/else statement that assigns 1 to x if y is equal to 100. Otherwise, it
+should assign 0 to x.
+
+ANSWER BELOW
+*******************************************************************************

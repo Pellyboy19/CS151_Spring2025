@@ -1,0 +1,13 @@
+True or false: The following if/else statements cause the same output to display.
+(A) if (y > x)
+        cout << "x is the greater.\n";
+    else
+        cout << "x is not the greater.\n";
+
+(B) if (y <= x)
+        cout << "x is not the greater.\n";
+    else
+        cout << "x is the greater.\n";
+
+ANSWER BELOW
+*******************************************************************************

@@ -1,0 +1,37 @@
+1. Create a new file in the Week02/Lab/ folder called circlearea.cpp
+2. Copy the below code into the file.
+3. Fill in the missing code in the program so that
+   it will compute the area of a circle with a radius of 5.4
+   and output the result. The formula for the area of a circle is
+   pi times the radius squared. The program should also output the 
+   circumference of the circle. The formula for the circumference 
+   of a circle is 2 times pi times the radius.
+4. Test the program and make sure it works.
+5. Push your changes to GitHub
+
+
+/*************** COPY BELOW ***************/
+// This program will output the circumference and area
+// of the circle with a given radius.
+
+#include <iostream>
+using namespace std;
+
+const double PI = 3.14;
+const double RADIUS = 5.4;
+
+int main()
+{
+	area 								// definition of area of circle 
+	circumference = 2 * PI * RADIUS;	// computes circumference
+    double circumference,				// definition of circumference 
+	area = PI * RADIUS * RADIUS;		// computes area
+
+	// Fill in the code for the cout statement that will output (with description)
+	// the circumference
+
+	// Fill in the code for the cout statement that will output (with description)
+	// the area of the circle
+
+	return 0;
+}

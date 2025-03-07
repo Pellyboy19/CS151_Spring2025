@@ -1,0 +1,12 @@
+What is wrong with the following program statement?
+char letter = "Z";
+
+/* Write your answer below.
+************************************************************************************************
+ "Z" is enclosed in double quotes (" "), which makes it a string literal.
+The char data type can only hold a single character, which must be enclosed in **single quotes (' ').
+
+
+
+************************************************************************************************
+*/

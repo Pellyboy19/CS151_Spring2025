@@ -1,0 +1,23 @@
+1. Create a new file in the Week02/Lab/ folder called temperature.cpp
+2. Copy the below code into the file.
+3. Fill in the missing code in the program so that it will convert a normal body temperature in Fahrenheit to Celsius.
+4. Test the program and make sure it works.
+5. Push your changes to GitHub
+
+/*************** COPY BELOW ***************/
+// This program will convert a temperature in Fahrenheit to Celsius.
+#include <iostream>
+using namespace std;
+
+const double NORMAL_TEMP = 98.6;	        // normal body temperature in Fahrenheit
+
+int main()
+{
+	double celsius;		                    // definition of celsius temperature
+	celsius == (FAHRENHEIT - 32) * 5 / 9;	// computes celsius temperature: 37 degrees
+
+	// Fill in the code for the cout statement that will output (with description)
+	// the celsius temperature. 
+
+	return 0;
+}

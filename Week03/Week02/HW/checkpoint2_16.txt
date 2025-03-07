@@ -1,0 +1,11 @@
+What header file must you include in order to use string objects?
+/* Write your answer below.
+************************************************************************************************
+To use string objects in C++, you must include the `<string>` header file.
+
+Correct Header File:**
+
+#include <string>
+
+************************************************************************************************
+*/

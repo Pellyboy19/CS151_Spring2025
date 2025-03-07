@@ -1,0 +1,18 @@
+Which of the following are illegal variable names, and why?
+X
+99bottles
+july97
+theSalesFigureForFiscalYear98
+r&d
+grade_report
+
+/* Write your answers below.
+************************************************************************************************
+
+Illegal variable names:
+99bottles (cannot start with a number)
+r&d (cannot contain special characters like `&`)
+
+
+************************************************************************************************
+*/

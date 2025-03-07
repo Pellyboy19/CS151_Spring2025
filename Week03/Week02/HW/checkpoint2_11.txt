@@ -1,0 +1,12 @@
+What are the ASCII codes for the following characters? (Refer to Appendix A.)
+C
+F
+W
+
+/* Write your answers below.
+************************************************************************************************
+C =  ASCII 67
+F = ASCII 70
+W = ASCII 87
+************************************************************************************************
+*/

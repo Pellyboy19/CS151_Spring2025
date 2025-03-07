@@ -1,0 +1,10 @@
+Refer to Table 2-6 for this question.
+On any computer, which data type uses more memory, an integer or an unsigned
+integer?
+
+/* Write your answer below.
+************************************************************************************************
+The difference lies in how they represent values, not in their memory allocation
+
+************************************************************************************************
+*/

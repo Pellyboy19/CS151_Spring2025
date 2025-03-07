@@ -1,0 +1,27 @@
+Refer to the data types listed in Table 2-6 for these questions.
+(A) If a variable needs to hold numbers in the range 32 to 6,000, what data type would be best?
+(B) If a variable needs to hold numbers in the range 240,000 to 140,000, what data type would be best?
+(C) Which of the following literals uses more memory? 20 or 20L
+
+/* Write your answers below.
+************************************************************************************************
+
+(A) unsigned short int
+
+    Reason: The range of unsigned short int (typically 0 to 65,535) easily covers 32 to 6,000.
+    It uses less memory than int, making it efficient.
+
+(B) unsigned int
+
+    If the intended range was 140,000 to 240,000, then  unsigned int would be best.
+    The range of unsigned int (typically 0 to 4,294,967,295) covers 140,000 to 240,000.
+
+(C)  20L uses more memory
+
+     20 is an int literal.
+     20L is a long int literal
+
+
+
+************************************************************************************************
+*/

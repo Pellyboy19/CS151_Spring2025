@@ -1,0 +1,15 @@
+Which of the following is a character literal? Why?
+'B'
+"B"
+
+/* Write your answer below.
+************************************************************************************************
+A character literal is **'B'** because it is enclosed in **single quotes (' ')**, which represent a 
+single character in programming languages like C and C++.
+
+On the other hand, **"B"** is a string literal because it is enclosed in **double quotes (" ")**. 
+String literals represent an array of characters terminated by a null character (`\0`).
+
+Thus, **'B'** is a character literal, while **"B"** is a string literal.
+************************************************************************************************
+*/

@@ -36,7 +36,7 @@ int main()
     else if (weight <= 10) {
         ratePer500Miles = 3.70;
     } 
-    else {  // weight <= 20 (already validated)
+    else {  
         ratePer500Miles = 4.80;
     }
 

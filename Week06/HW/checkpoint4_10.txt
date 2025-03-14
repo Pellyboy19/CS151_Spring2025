@@ -4,3 +4,7 @@ assign 250 to the bonus variable.
 
 ANSWER BELOW
 *******************************************************************************
+if (sales > 50000) {
+    commissionRate = 0.25;
+    bonus = 250;
+}

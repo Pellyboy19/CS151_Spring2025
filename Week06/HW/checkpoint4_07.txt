@@ -2,3 +2,6 @@ Write an if statement that multiplies payRate by 1.5 if hours is greater than 40
 
 ANSWER BELOW
 *******************************************************************************
+if (hours > 40) {
+    payRate *= 1.5;
+}

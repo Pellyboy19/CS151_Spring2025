@@ -3,3 +3,6 @@ greater than 500, then assign 0.2 to the variable discountRate.
 
 ANSWER BELOW
 *******************************************************************************
+if (price > 500) {
+    discountRate = 0.2;
+}

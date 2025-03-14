@@ -8,3 +8,6 @@ Answer the following questions with a yes or no:
 
 ANSWER BELOW
 *******************************************************************************
+(A) Yes
+(B) No
+(C) No

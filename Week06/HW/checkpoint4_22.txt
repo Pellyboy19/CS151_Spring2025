@@ -10,3 +10,9 @@ Refer to the ASCII table in Appendix A if necessary.
 
 ANSWER BELOW
 *******************************************************************************
+(A) True
+(B) False
+(C) True
+(D) False
+(E) False
+(F) True

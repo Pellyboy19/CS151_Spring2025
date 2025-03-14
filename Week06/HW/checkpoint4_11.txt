@@ -7,3 +7,7 @@ if (interestRate > .07)
 
 ANSWER BELOW
 *******************************************************************************
+if (interestRate > 0.07) {
+    cout << "This account earns a $10 bonus.\n";
+    balance += 10.0;
+}

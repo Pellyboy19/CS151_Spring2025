@@ -3,3 +3,6 @@ variable speed is within the range 0 through 200.
 
 ANSWER BELOW
 *******************************************************************************
+if (speed >= 0 && speed <= 200) {
+    cout << "The number is valid" << endl;
+}

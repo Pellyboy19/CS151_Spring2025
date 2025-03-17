@@ -25,3 +25,6 @@ if __name__ == "__main__":
 
  
     print(f"You are {dog_years} years old in dog years!")
+    age: int = int(input("Enter your age: "))
+    dog_years: int = age * 7
+    print(f"Your age in dog years is: {dog_years}")

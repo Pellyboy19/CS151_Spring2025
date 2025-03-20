@@ -1,4 +1,4 @@
-Create a file in your Week06/Lab folder called math.cpp
+Create a file in your Week08/Lab folder called math.cpp
 Write a program that generates a math exercise for the user.
 
 The program should first ask for which operation an exercise should be generated. The

@@ -1,0 +1,13 @@
+What is wrong with the following switch statement?
+switch (temp)
+{
+    case temp < 0 : cout << "Temp is negative.\n";
+                    break;
+    case temp == 0: cout << "Temp is zero.\n";
+                    break;
+    case temp > 0 : cout << "Temp is positive.\n";
+                    break;
+}
+
+ANSWER BELOW
+*******************************************************************************

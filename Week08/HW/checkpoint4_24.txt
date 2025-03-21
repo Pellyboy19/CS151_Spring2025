@@ -1,0 +1,20 @@
+Rewrite the following if/else statements as conditional expressions:
+(A) if (x > y)
+        z = 1;
+    else
+        z = 20;
+(B) if (temp > 45)
+        population = base * 10;
+    else
+        population = base * 2;
+(C) if (hours > 40)
+        wages *= 1.5;
+    else
+        wages *= 1;
+(D) if (result >= 0)
+        cout << "The result is positive\n";
+    else
+        cout << "The result is negative.\n";
+
+ANSWER BELOW
+*******************************************************************************

@@ -1,0 +1,56 @@
+42. T   F   The = operator and the == operator perform the same operation when used in a Boolean expression.
+ANSWER: 
+
+43. T   F   A nested if/else block with another if/else block facilitates checking of
+            multiple conditions.
+ANSWER: 
+
+44. T   F   A conditionally executed statement should be indented one level from the if
+            statement.
+ANSWER: 
+
+45. T   F   The compiler reports an error if lines within a block are not indented.
+ANSWER: 
+
+46. T   F   It’s safe to assume that all uninitialized variables automatically start with 0
+            as their value.
+ANSWER: 
+
+47. T   F   If an if statement is nested within the if part of another statement, the
+            block within the inner if is executed when both the conditions are false.
+ANSWER: 
+
+48. T   F   When an if statement is nested in the else part of another statement, as in
+            an if/else if, the only time the inner if is executed is when the expression
+            of the outer if is true.
+ANSWER: 
+
+49. T   F   The scope of a variable is limited to the block in which it is defined.
+ANSWER: 
+
+50. T   F   You can use the relational operators to compare string objects.
+ANSWER: 
+
+51. T   F   The expression 'a' == 'A' || 0 == 0 is true.
+ANSWER: 
+
+52. T   F   y < x is the same as x >= y
+ANSWER: 
+
+53. T   F   x >= y is the same as (x > y && x = y)
+ANSWER: 
+
+Assume the variables x = 5, y = 6, and z = 8. Indicate by circling the T or F whether
+each of the following conditions is True or False:
+
+54. T   F   x == 5 || y > 3
+ANSWER: 
+
+55. T   F   x==5 && ( y<=10 || z>10 )
+ANSWER: 
+
+56. T   F   2 != y && z != 4
+ANSWER: 
+
+57. T   F   !(x<5 && z>5)
+ANSWER: 

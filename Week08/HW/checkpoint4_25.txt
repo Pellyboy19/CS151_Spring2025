@@ -1,0 +1,9 @@
+The following statements use conditional expressions. Rewrite each with an if/
+else statement.
+(A) j = k > 90 ? 57 : 12;
+(B) factor = x >= 10 ? y * 22 : y * 35;
+(C) total += count == 1 ? sales : count * sales;
+(D) cout << (((num % 2) == 0) ? "Even\n" : "Odd\n");
+
+ANSWER BELOW
+*******************************************************************************

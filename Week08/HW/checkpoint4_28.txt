@@ -11,3 +11,9 @@ switch (temp)
 
 ANSWER BELOW
 *******************************************************************************
+case labels must be constant values.
+In a switch statement, the case labels must be constant integral values like:
+
+case -1:
+case 0:
+case 1:

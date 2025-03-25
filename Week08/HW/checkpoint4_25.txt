@@ -7,3 +7,26 @@ else statement.
 
 ANSWER BELOW
 *******************************************************************************
+ (A)
+if (k > 90)
+    j = 57;
+else
+    j = 12;
+
+ (B)
+if (x >= 10)
+    factor = y * 22;
+else
+    factor = y * 35;
+
+ (C)
+if (count == 1)
+    total += sales;
+else
+    total += count * sales;
+
+ (D)
+if ((num % 2) == 0)
+    cout << "Even\n";
+else
+    cout << "Odd\n";

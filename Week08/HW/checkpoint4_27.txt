@@ -9,3 +9,16 @@ else if (rate < .1)
 
 ANSWER BELOW
 *******************************************************************************
+You cannot convert this if/else if statement into a switch statement because:
+
+A switch statement only works with discrete, constant values (like integers or characters).
+It does not support relational operators such as >, <, or expressions involving floating-point numbers.
+In this example:
+temp == 100 is fine for a switch (it's equality).
+But population > 1000 and rate < .1 are relational comparisons, not constant equality checks.
+rate < .1 also involves a floating-point value, which is not allowed in switch conditions.
+Therefore, a switch cannot be used because it:
+
+Requires integral types (like int or char),
+Cannot evaluate expressions or ranges,
+Cannot handle floating-point comparisons.

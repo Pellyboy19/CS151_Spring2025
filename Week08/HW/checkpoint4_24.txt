@@ -18,3 +18,14 @@ Rewrite the following if/else statements as conditional expressions:
 
 ANSWER BELOW
 *******************************************************************************
+(A)
+z = (x > y) ? 1 : 20;
+
+(B)
+population = (temp > 45) ? base * 10 : base * 2;
+
+(C)
+wages *= (hours > 40) ? 1.5 : 1;
+
+(D)
+cout << ((result >= 0) ? "The result is positive\n" : "The result is negative.\n");

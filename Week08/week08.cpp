@@ -13,3 +13,26 @@
 #include <string>
 
 using namespace std;
+
+
+    int main()
+    {
+        string digits[] = {"zero", "one", "two", "three", "four", 
+                           "five", "six", "seven", "eight", "nine"};
+    
+        int choice;
+        cout << "Enter a digit between 0 and 9: ";
+        cin >> choice;
+    
+        if (choice >= 0 && choice <= 9)
+        {
+            cout << "The word is: " << digits[choice] << endl;
+        }
+        else
+        {
+            cout << "Not a valid digit." << endl;
+        }
+    
+        return 0;
+    }
+    

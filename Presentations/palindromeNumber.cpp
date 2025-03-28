@@ -1,21 +1,29 @@
 #include <iostream>
 #include <cmath>
+#include <cassert>
 #include "_functions.h"
 
 using namespace std;
 using namespace Presentations;
+void palindromeNumberTest();
 
 bool palindromeNumber(int num); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
 
 int main()
 {
-    cout << palindromeNumber(121) << endl;
-    cout << palindromeNumber(1221) << endl;
-    cout << palindromeNumber(12321) << endl;
-    cout << palindromeNumber(-12321) << endl;
-    cout << palindromeNumber(9) << endl;
-    cout << palindromeNumber(123) << endl;
-    cout << palindromeNumber(-123) << endl;
-    cout << palindromeNumber(0) << endl;
+    palindromeNumberTest();
     return 0;
+}
+
+void palindromeNumberTest()
+{
+    // palindromeNumber
+    assert(palindromeNumber(121) == true);
+    assert(palindromeNumber(1221) == true);
+    assert(palindromeNumber(12321) == true);
+    assert(palindromeNumber(-12321) == false);
+    assert(palindromeNumber(9) == true);
+    assert(palindromeNumber(123) == false);
+    assert(palindromeNumber(-123) == false);
+    assert(palindromeNumber(0) == true);
 }

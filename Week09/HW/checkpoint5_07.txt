@@ -1,0 +1,13 @@
+You want to write a for loop that displays “I love to program” 50 times.
+Assume you will use a counter variable named count.
+
+(A) What initialization expression will you use?
+
+(B) What test expression will you use?
+
+(C) What update expression will you use?
+
+(D) Write the loop.
+
+ANSWER BELOW
+****************************************************************************************

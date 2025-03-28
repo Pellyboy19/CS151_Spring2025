@@ -1,0 +1,32 @@
+What will the following program segments display?
+
+(A) x = 2;
+    y = x++;
+    cout << x << y;
+
+(B) x = 2;
+    y = ++x;
+    cout << x << y;
+
+(C) x = 2;
+    y = 4;
+    cout << x++ << −−y;
+
+(D) x = 2;
+    y = 2 * x++;
+    cout << x << y;
+
+(E) x = 99;
+    if (x++ < 100)
+    cout "It is true!\n";
+    else
+    cout << "It is false!\n";
+
+(F) x = 0;
+    if (++x)
+    cout << "It is true!\n";
+    else
+    cout << "It is false!\n";
+
+ANSWER BELOW
+****************************************************************************************

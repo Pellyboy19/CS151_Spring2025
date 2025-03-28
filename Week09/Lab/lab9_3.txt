@@ -1,0 +1,10 @@
+Random Number Guessing Game
+
+Create a file in Week09/Lab called guessing.cpp
+
+Write a program that generates a random number from the first 100 natural numbers and asks the user to guess what the
+number is. If the user’s guess is higher than the random number, the program should
+display “Too high, try again.” If the user’s guess is lower than the random number, the
+program should display “Too low, try again.” The program should use a loop that
+repeats until the user correctly guesses the random number in which case the program will end
+displaying “Congratulations! You guessed the number!”

@@ -1,0 +1,24 @@
+What will the following program segments display?
+
+(A) int count = 10;
+    do
+    {
+    cout << "Hello World\n";
+    count++;
+    } while (count < 1);
+
+(B) int v = 10;
+    do
+    cout << v << end1;
+    while (v < 5);
+
+(C) int count = 0, number = 0, limit = 4;
+    do
+    {
+    number += 2;
+    count++;
+    } while (count < limit);
+    cout << number << " " << count << endl;
+
+ANSWER BELOW
+****************************************************************************************

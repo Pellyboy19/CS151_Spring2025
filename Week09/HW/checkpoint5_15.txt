@@ -1,0 +1,33 @@
+How would you modify Program 5-13 so any negative value is a sentinel?
+
+Program 5-13:
+ 1  // This program calculates the total number of points a
+ 2  // soccer team has earned over a series of games. The user
+ 3  // enters a series of point values, then −1 when finished.
+ 4  #include <iostream>
+ 5  using namespace std;
+ 6
+ 7  int main()
+ 8  {
+ 9      int game = 1, // Game counter
+10      points, // To hold a number of points
+11      total = 0; // Accumulator
+12
+13      cout << "Enter the number of points your team has earned\n";
+14      cout << "so far in the season, then enter −1 when finished.\n\n";
+15      cout << "Enter the points for game " << game << ": ";
+16      cin >> points;
+17
+18      while (points != −1)
+19      {
+20          total += points;
+21          game++;
+22          cout << "Enter the points for game " << game << ": ";
+23          cin >> points;
+24      }
+25      cout << "\nThe total points are " << total << endl;
+26      return 0;
+27  }
+
+ANSWER BELOW
+****************************************************************************************

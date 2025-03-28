@@ -1,0 +1,14 @@
+In the following program segment, which variable is the counter variable and
+which is the accumulator?
+
+int a, x, y = 0;
+for (x = 0; x < 10; x++)
+{
+    cout << "Enter a number: ";
+    cin >> a;
+    y += a;
+}
+cout << "The sum of those numbers is " << y << endl;
+
+ANSWER BELOW
+****************************************************************************************

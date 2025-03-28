@@ -1,0 +1,4 @@
+Why should you be careful when choosing a sentinel value?
+
+ANSWER BELOW
+****************************************************************************************

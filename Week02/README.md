@@ -1,3 +1,5 @@
+# February 7th, 2025
+
 ## Slides
 - [Chapter 2](../Slides/Chapter02.pdf)
 

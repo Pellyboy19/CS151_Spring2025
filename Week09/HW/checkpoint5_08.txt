@@ -1,0 +1,15 @@
+What will the following program segments display?
+
+(A) for (int count = 0; count < 6; count++)
+        cout << (count + count);
+
+(B) for (int value = −5; value < 5; value++)
+        cout << value;
+
+(C) int x;
+    for (x = 5; x <= 14; x += 3)
+        cout << x << endl;
+    cout << x << endl;
+
+ANSWER BELOW
+****************************************************************************************

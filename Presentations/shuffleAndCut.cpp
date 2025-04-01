@@ -1,3 +1,12 @@
+/*
+    Define a function that shuffles and cuts a deck of cards.
+    The function should take two parameters: the array to shuffle and the size of the array.
+    The function should iterate through the array and randomly swap each element with another element in the array.
+    The function should then cut the deck by splitting it in half and swapping the two halves.
+    The function should not return anything.
+    The function should modify the input array in place.
+    The function should not use any additional data structures.
+*/
 #include <iostream>
 #include <cstdlib>
 #include <ctime>

@@ -1,3 +1,20 @@
+/*
+    Define a function that converts a binary number (represented as a string) to its decimal equivalent.
+    The function should take a single parameter: the binary number as a string.
+    The function should return the decimal equivalent of the binary number as an integer.
+    For example, if the input binary number is "1010", the function should return 10.
+    If the input binary number is "1111", the function should return 15.
+    If the input binary number is "10000000", the function should return 128.
+    If the input binary number is "0", the function should return 0.
+    If the input binary number is "00000000", the function should return 0.
+    If the input binary number is "00000001", the function should return 1.
+    If the input binary number is "00000010", the function should return 2.
+
+    You can assume that the input binary number will only contain 0s and 1s.
+    You can assume that the input binary number will not be larger than 32 bits.
+    You can assume that the input binary number will not be negative.
+*/
+
 #include <iostream>
 #include <cmath>
 #include <cassert>

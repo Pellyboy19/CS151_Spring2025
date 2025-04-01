@@ -4,7 +4,7 @@ Create a file in Week09/Lab called average.cpp
 
 Write a program that assigns a random number between 5 and 20 to a named constant N.
 Declare an array of size N and assign a random number between 0 and 100 to each element of the array.
-The program should then print the array elements encase in square brackets [] on a single line 
+The program should then print the array elements encased in square brackets [] on a single line 
 separated by a comma. (e.g. [1, 2, 3, 4, 5]) Then the program should print the sum of the
 array elements followed by the average to two decimal places. 
 

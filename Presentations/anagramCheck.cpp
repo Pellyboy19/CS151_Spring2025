@@ -1,3 +1,13 @@
+/*
+    define a function that takes two strings as input and returns true if they are anagrams of each other.
+    Otherwise, it returns false.
+    An anagram is a word formed by rearranging the letters of a different word, using all the original letters exactly once.
+    For example, "listen" and "silent" are anagrams of each other.
+    "triangle" and "integral" are also anagrams.
+    The casing of the letters does not matter, so "Triangle" and "integral" are also anagrams.
+    You can assume that the input will only contain english letters.
+*/
+
 #include <iostream>
 #include <string>
 #include <cassert>

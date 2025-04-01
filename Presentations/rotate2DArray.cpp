@@ -1,3 +1,12 @@
+/*
+    Define a function that rotates a 2D array (matrix) by 90 degrees clockwise.
+    The function should take a single parameter: the 2D array to rotate.
+    The function should modify the input array in place.
+    The function should not return anything.
+    The function should not use any additional data structures.
+    The function should not use any built-in functions.
+*/
+
 #include <iostream>
 #include <cassert>
 #include <cstdlib>

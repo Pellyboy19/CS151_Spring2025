@@ -2,3 +2,6 @@ Why should you be careful when choosing a sentinel value?
 
 ANSWER BELOW
 ****************************************************************************************
+
+You should be careful when choosing a sentinel value because it must be distinct and not a valid data entry.
+ If the sentinel value could also be a valid input, the program might end the loop prematurely or behave incorrectly.

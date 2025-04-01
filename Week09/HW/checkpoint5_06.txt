@@ -3,3 +3,8 @@ header.
 
 ANSWER BELOW
 ****************************************************************************************
+Initialization expression
+
+Test (or condition) expression
+
+Update expression

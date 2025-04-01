@@ -31,3 +31,16 @@ Program 5-13:
 
 ANSWER BELOW
 ****************************************************************************************
+ Modified Line:
+
+while (points >= 0)
+
+ Updated Segment in Context (Lines 18–24):
+
+while (points >= 0)
+{
+    total += points;
+    game++;
+    cout << "Enter the points for game " << game << ": ";
+    cin >> points;
+}

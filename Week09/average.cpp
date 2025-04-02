@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
@@ -7,19 +6,17 @@
 using namespace std;
 
 int main() {
-    
-    srand(static_cast<unsigned int>(time(0)));
+    srand(time(0));  // Seed random number generator
 
-    
-    const int N = 5 + rand() % 16;  // Random number from 5 to 20
+    const int N = 5 + rand() % 16;  
+    int array[20];  
 
-    
-    vector<int> array(N);
+    // Populate array with random values between 0 and 100
     for (int i = 0; i < N; ++i) {
-        array[i] = rand() % 101;  // Random number from 0 to 100
+        array[i] = rand() % 101;
     }
 
-   
+
     cout << "[";
     for (int i = 0; i < N; ++i) {
         cout << array[i];
@@ -29,12 +26,13 @@ int main() {
 
     // Calculate sum and average
     int sum = 0;
-    for (int num : array) {
-        sum += num;
+    for (int i = 0; i < N; ++i) {
+        sum += array[i];
     }
+
     double average = static_cast<double>(sum) / N;
 
-    // Print sum and average (to two decimal places)
+    // Output sum and average
     cout << "Sum: " << sum << endl;
     cout << fixed << setprecision(2);
     cout << "Average: " << average << endl;

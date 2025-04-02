@@ -5,16 +5,13 @@
 using namespace std;
 
 int main() {
-   
-    srand(static_cast<unsigned int>(time(0)));
-
+    srand(time(0));  // Set the random seed
 
     int secretNumber = 1 + rand() % 100;
     int guess;
 
     cout << "Guess the number (between 1 and 100): ";
 
-    
     do {
         cin >> guess;
 
@@ -25,7 +22,6 @@ int main() {
         }
     } while (guess != secretNumber);
 
-   
     cout << "Congratulations! You guessed the number!" << endl;
 
     return 0;

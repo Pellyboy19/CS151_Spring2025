@@ -20,6 +20,18 @@ void reviewQuestion35()
     */
 
     // Write your code here
+    
+{
+    int num, sum = 0;
+    
+    while (sum <= 100) {
+        cout << "Enter a number: ";
+        cin >> num;
+        sum += num;
+        cout << "Partial sum: " << sum << endl;
+    }
+}
+
 
 }
 void reviewQuestion36()
@@ -31,7 +43,20 @@ void reviewQuestion36()
     */
 
     // Write your code here
-
+    
+    {
+        double num;
+    
+        do {
+            cout << "Enter a number: ";
+            cin >> num;
+    
+            if (num > 0) {
+                cout << "Square root: " << sqrt(num) << endl;
+            }
+        } while (num > 0);
+    }
+    
 }
 void reviewQuestion37()
 {
@@ -41,7 +66,13 @@ void reviewQuestion37()
     */
 
     // Write your code here
-
+    {
+        for (int i = 2; i <= 2048; i *= 2) {
+            cout << i << " ";
+        }
+        cout << endl;
+    }
+    
 }
 void reviewQuestion38()
 {
@@ -51,7 +82,17 @@ void reviewQuestion38()
     */
 
     // Write your code here
-
+    {
+        int count = 0;
+    
+        for (int i = 100; i <= 250; i++) {
+            if (i % 2 == 0) {
+                cout << i << " ";
+                count++;
+            }
+        }
+        cout << "\nTotal even numbers: " << count << endl;
+    }
 }
 void reviewQuestion39()
 {
@@ -61,7 +102,14 @@ void reviewQuestion39()
     */
 
     // Write your code here
-
+    {
+        for (int row = 1; row <= 10; row++) {
+            for (int col = 1; col <= 15; col++) {
+                cout << "#";
+            }
+            cout << endl;
+        }
+    }
 }
 void reviewQuestion40()
 {
@@ -76,7 +124,14 @@ void reviewQuestion40()
     */
 
     // Write your code here
-
+    {
+        int x = 1;
+    
+        do {
+            cout << "enter a number: ";
+            cin >> x;
+        } while (x > 0);
+    }
 }
 void reviewQuestion41()
 {
@@ -91,7 +146,12 @@ void reviewQuestion41()
     */
 
     // Write your code here
-
+    {
+        for (int response = 0; response != 1;) {
+            cout << "Hello! Press 1 to exit loop...";
+            cin >> response;
+        }
+    }
 }
 void reviewQuestion42()
 {
@@ -106,7 +166,11 @@ void reviewQuestion42()
     */
 
     // Write your code here
-
+    {
+        for (int count = 0; count < 50; count++) {
+            cout << "count is " << count << endl;
+        }
+    }
 }
 void reviewQuestion43()
 {
@@ -119,7 +183,13 @@ void reviewQuestion43()
     */
 
     // Write your code here
-    
+    {
+        int x = 50;
+        while (x > 0) {
+            cout << x << " seconds to go.\n";
+            x--;
+        }
+    }
 }
 void reviewQuestion44()
 {
@@ -129,7 +199,15 @@ void reviewQuestion44()
     */
 
     // Write your code here
-
+    {
+        ofstream outputFile("Numbers.txt");
+    
+        for (int i = 1; i <= 100; i++) {
+            outputFile << i << endl;
+        }
+    
+        outputFile.close();
+    }
 }
 void reviewQuestion45()
 {
@@ -140,7 +218,17 @@ void reviewQuestion45()
     */
 
     // Write your code here
-
+    {
+        ifstream inputFile("Numbers.txt");
+        int num;
+    
+        while (inputFile >> num) {
+            cout << num << endl;
+        }
+    
+        inputFile.close();
+    }
+    
 }
 void reviewQuestion46()
 {
@@ -150,7 +238,18 @@ void reviewQuestion46()
     */
 
     // Write your code here
-
+    {
+        ifstream inputFile("Numbers.txt");
+        int num, sum = 0;
+    
+        while (inputFile >> num) {
+            sum += num;
+        }
+    
+        cout << "Sum of numbers: " << sum << endl;
+    
+        inputFile.close();
+    }
 }
 
 // Do not change the main function

@@ -1,29 +1,48 @@
 5.16 What is an output file? What is an input file?                                        ANSWER BELOW
 *******************************************************************************************************
+An output file is a file that a program writes data to.
+An input file is a file that a program reads data from.
+
 
 *******************************************************************************************************
 
 5.17 What three steps must be taken when a file is used by a program?                      ANSWER BELOW
 *******************************************************************************************************
+Open the file using a file stream object (like ifstream or ofstream).
+
+Use the file to read from or write to, depending on the file type.
+
+Close the file when the program is done with it.
+
 
 *******************************************************************************************************
 
 5.18 What is the difference between a text file and a binary file?                         ANSWER BELOW
 *******************************************************************************************************
+A text file stores data as readable characters, like letters and numbers.
+A binary file stores data in binary (1s and 0s), which is not human-readable.
+
 
 *******************************************************************************************************
 
 5.19 What is the difference between sequential access and random access?                   ANSWER BELOW
 *******************************************************************************************************
+Sequential access means reading or writing data in order, from beginning to end.
+Random access allows reading or writing data at any location in the file without going in order.
+
 
 *******************************************************************************************************
 
 5.20 What type of file stream object do you create if you want to write data to a file?    ANSWER BELOW
 *******************************************************************************************************
+You use an ofstream (output file stream) object to write data to a file.
+
 
 *******************************************************************************************************
 
 5.21 What type of file stream object do you create if you want to read data from a file?   ANSWER BELOW
 *******************************************************************************************************
+You use an ifstream (input file stream) object to read data from a file.
+
 
 *******************************************************************************************************

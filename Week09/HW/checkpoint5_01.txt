@@ -18,15 +18,15 @@ What will the following program segments display?
 
 (E) x = 99;
     if (x++ < 100)
-    cout "It is true!\n";
+        cout "It is true!\n";
     else
-    cout << "It is false!\n";
+        cout << "It is false!\n";
 
 (F) x = 0;
     if (++x)
-    cout << "It is true!\n";
+        cout << "It is true!\n";
     else
-    cout << "It is false!\n";
+        cout << "It is false!\n";
 
 ANSWER BELOW
 ****************************************************************************************

@@ -1,0 +1,41 @@
+Read and Write
+
+Create a file in Week10/Lab called read_write.cpp
+
+Write a program that reads a file called content.txt and counts the occurrences of each letter in the file.
+The program should then write the letter counts to a file called counts.txt.
+
+The output file should contain the letter counts in the following format:
+A: 5
+B: 3
+C: 2
+...
+The program should ignore case and only count letters (ignore digits, punctuation, and whitespace).
+The program should also handle the case where the input file does not exist or cannot be opened.
+The program should print an error message if the input file cannot be opened.
+
+01. Include the necessary header files. (iostream, fstream, cctype)
+02. Define the main function.
+03. Declare a variable to hold the filename of the input file.
+04. Declare a variable to hold the filename of the output file.
+05. Check if the input files were opened successfully.
+06. If the input files were not opened successfully, print an error message and return 1.
+07. Declare an array to hold the letter counts (26 elements for A-Z).
+08. Initialize each letter count to 0 in the array.
+09. Declare a variable to hold the character read from the input file.
+10. Read each character from the input file.
+11. If the character is a letter, convert it to uppercase and increment the corresponding count in the array.
+    'A' - 'A' = 0
+    'B' - 'A' = 1
+    'C' - 'A' = 2
+    ...
+    'Z' - 'A' = 25
+    The condition of the if header should be: if (isalpha(character))
+    Or: if (toupper(character) >= 'A' && toupper(character) <= 'Z')
+    Use the formula: index = toupper(character) - 'A' to get the index for the letter count array.
+12. Write the letter counts to the output file in the specified format.
+13. Loop from 'A' to 'Z'.
+14. In each iteration, write the letter and its count to the output file.
+15. Close the input file.
+16. Close the output file.
+17. Return 0 to indicate successful completion of the program.

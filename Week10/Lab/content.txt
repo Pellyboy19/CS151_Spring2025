@@ -1,0 +1,41 @@
+Chapter 1: Introduction to Computers and Programming
+This chapter provides an introduction to the field of computer science and covers the fun-
+damentals of programming, problem solving, and software design. The components of pro-
+grams, such as key words, variables, operators, and punctuation, are covered. The tools of
+the trade, such as pseudocode, flow charts, and hierarchy charts, are also presented.
+Chapter 2: Introduction to C++
+This chapter gets the student started in C++ by introducing data types, identifiers, vari-
+able declarations, constants, comments, program output, simple arithmetic operations, and
+C-strings. Programming style conventions are introduced and good programming style is
+modeled here, as it is throughout the text.
+Chapter 3: Expressions and Interactivity
+In this chapter, the student learns to write programs that input and handle numeric, char-
+acter, and string data. The use of arithmetic operators and the creation of mathematical
+expressions are covered in greater detail, with emphasis on operator precedence. Debug-
+ging is introduced, with a section on hand tracing a program. Sections are also included on
+simple output formatting, on data type conversion and type casting, and on using library
+functions that work with numbers.
+Chapter 4: Making Decisions
+Here, the student learns about relational operators, relational expressions, and how to con-
+trol the flow of a program with the if, if/else, and if/else if statements. The condi-
+tional operator and the switch statement are also covered. Crucial applications of these
+constructs are covered, such as menu-driven programs and the validation of input.
+Chapter 5: Loops and Files
+This chapter covers repetition control structures. The while loop, do-while loop, and for
+loop are taught, along with common uses for these devices. Counters, accumulators, run-
+ning totals, sentinels, and other application-related topics are discussed. Sequential file I/O
+is also introduced. The student learns to read and write text files, and use loops to process
+the data in a file.
+Chapter 6: Functions
+In this chapter, the student learns how and why to modularize programs, using both void
+and value returning functions. Argument passing is covered, with emphasis on when argu-
+ments should be passed by value versus when they need to be passed by reference. Scope of
+variables is covered, and sections are provided on local versus global variables and on static
+local variables. Overloaded functions are also introduced and demonstrated.
+Chapter 7: Arrays and Vectors
+In this chapter, the student learns to create and work with single and multi-dimensional
+arrays. Many examples of array processing are provided including examples illustrating
+how to find the sum, average, highest, and lowest values in an array, and how to sum the
+rows, columns, and all elements of a two-dimensional array. Programming techniques using
+parallel arrays are also demonstrated, and the student is shown how to use a data file as an
+input source to populate an array. STL vectors are introduced and compared to arrays.

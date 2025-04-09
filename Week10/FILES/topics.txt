@@ -1,0 +1,7 @@
+Chapter 1: Introduction to Computers and Programming
+Chapter 2: Introduction to C++
+Chapter 3: Expressions and Interactivity
+Chapter 4: Making Decisions
+Chapter 5: Loops and Files
+Chapter 6: Functions
+Chapter 7: Arrays and Vectors

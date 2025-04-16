@@ -4,3 +4,4 @@ void showResults()
 
 ANSWER BELOW
 *****************************************************************
+is a function header

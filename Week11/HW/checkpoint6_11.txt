@@ -2,3 +2,6 @@ How many return values may a function have?
 
 ANSWER BELOW
 *****************************************************************
+A function may have only one return value. However,
+ that return value can be a single item (like int, double, string) or a compound item such as a struct, array, or object that contains multiple values.
+

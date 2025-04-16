@@ -3,3 +3,4 @@ double and have two double parameters: rate and time.
 
 ANSWER BELOW
 *****************************************************************
+double distance(double rate, double time);

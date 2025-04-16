@@ -3,3 +3,4 @@ long and have one long parameter: miles.
 
 ANSWER BELOW
 *****************************************************************
+long lightYears(long miles);

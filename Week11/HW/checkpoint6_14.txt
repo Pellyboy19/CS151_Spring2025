@@ -3,3 +3,4 @@ and use no parameters.
 
 ANSWER BELOW
 *****************************************************************
+char getKey();

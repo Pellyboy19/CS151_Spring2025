@@ -3,3 +3,4 @@ and have three int parameters: years, months, and weeks.
 
 ANSWER BELOW
 *****************************************************************
+int days(int years, int months, int weeks);

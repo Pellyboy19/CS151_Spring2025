@@ -16,13 +16,15 @@
 */
 
 #include <iostream>
-#include <cmath>
-#include <cassert>
+#include <string>
+#include <cstdlib>
 #include <ctime>
+#include <cassert>
 #include "_functions.h"
 
 using namespace std;
 using namespace Presentations;
+
 void binaryToDecimalTest();
 
 int binaryToDecimal(const string& binary); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
@@ -33,8 +35,10 @@ int main()
     binaryToDecimalTest();
     
     string binary = BinaryNumber();
+
     cout << "Binary: " << binary << endl;
     cout << "Decimal: " << binaryToDecimal(binary) << endl;
+    
     return 0;
 }
 

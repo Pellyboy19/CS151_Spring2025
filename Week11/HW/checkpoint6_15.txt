@@ -1,0 +1,5 @@
+Write a header for a function named lightYears. The function should return a
+long and have one long parameter: miles.
+
+ANSWER BELOW
+*****************************************************************

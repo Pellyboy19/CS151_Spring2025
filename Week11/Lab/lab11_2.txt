@@ -1,0 +1,41 @@
+Helper Functions
+
+Create a file in Week11/Lab called helper.cpp
+
+Write a function called isEven() that takes an integer as an argument and returns true if the integer is even, and false if it is odd.
+The function should use the modulus operator to determine if the integer is even or odd.
+The function should return a boolean value.
+
+Write a function called isOdd() that takes an integer as an argument and returns true if the integer is odd, and false if it is even.
+The function should use the modulus operator to determine if the integer is odd or even.
+The function should return a boolean value.
+
+Write a function called allUpper() that takes a string as an argument and returns the string with all characters converted to uppercase.
+The function should use a loop to iterate through each character of the string and convert it to uppercase.
+The function should return the modified string.
+
+Write a function called allLower() that takes a string as an argument and returns the string with all characters converted to lowercase.
+The function should use a loop to iterate through each character of the string and convert it to lowercase.
+The function should return the modified string.
+
+Write a function called vowelCount() that takes a string as an argument and returns the number of vowels in the string.
+The function should use a loop to iterate through each character of the string and check if it is a vowel (a, e, i, o, u).
+The function should return the count of vowels found in the string.
+Use the allLower() function to convert the string to lowercase before checking for vowels.
+Assume that the string contains only alphabetic characters.
+Assume y is not a vowel.
+
+Write a function called consonantCount() that takes a string as an argument and returns the number of consonants in the string.
+The function should use a loop to iterate through each character of the string and check if it is a consonant (a letter that is not A, E, I, O, U).
+The function should return the count of consonants found in the string.
+Use the allUpper() function to convert the string to uppercase before checking for consonants.
+Assume that the string contains only alphabetic characters.
+Assume Y is a consonant.
+
+Write a function called encode() that takes a string as an argument and returns the string with each character replaced by the next character in the alphabet.
+The function should use a loop to iterate through each character of the string and replace it with the next character in the alphabet.
+The function should return the modified string.
+The next character in the alphabet for z is a.
+The next character in the alphabet for Z is A.
+
+Write a main function that calls each of the above functions with appropriate arguments and prints the results to the console.

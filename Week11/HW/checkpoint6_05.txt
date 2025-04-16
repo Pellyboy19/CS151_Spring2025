@@ -1,0 +1,11 @@
+Indicate which of the following is the function prototype, the function header, and
+the function call:
+
+void showNum(double num)
+
+void showNum(double);
+
+showNum(45.67);
+
+ANSWER BELOW
+*****************************************************************

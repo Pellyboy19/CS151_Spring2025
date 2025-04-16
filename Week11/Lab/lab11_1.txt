@@ -1,0 +1,28 @@
+Helper Functions
+
+Create a file in Week11/Lab called void.cpp
+
+Write a function called sayHello() that takes a string as an argument and prints "Hello, <string>!" to the console.
+The function should not return any value.
+The function should handle the case when the string is empty by printing "Hello, World!".
+<string> should be replaced with the actual string parameter.
+
+Write a function called countdown() that takes an integer n as an argument and prints a countdown from n to 0.
+The function should use a loop to print each number in the countdown.
+The function should not return any value.
+The function should handle the case when n is less than 0 by printing "Invalid input".
+
+Write a function called printBlock() that takes an integer n as an argument
+and prints a block of asterisks with n rows and n columns.
+The function should use nested loops to print the block of asterisks.
+The function should not return any value.
+The function should handle the case when n is less than 1 by printing "Invalid input".
+
+Write a function called printTriangle() that takes an integer n as an argument
+and prints a right triangle of asterisks with n rows.
+The function should use nested loops to print the triangle.
+The function should not return any value.
+The function should handle the case when n is less than 1 by printing "Invalid input".
+
+Write a main function that calls each of the above functions
+with appropriate arguments and prints the results to the console.

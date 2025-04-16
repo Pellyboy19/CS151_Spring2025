@@ -1,0 +1,5 @@
+Write a header for a function named getKey. The function should return a char
+and use no parameters.
+
+ANSWER BELOW
+*****************************************************************

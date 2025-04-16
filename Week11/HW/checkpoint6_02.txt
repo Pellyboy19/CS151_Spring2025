@@ -1,0 +1,6 @@
+Is the following a function header or a function call?
+
+void showResults()
+
+ANSWER BELOW
+*****************************************************************

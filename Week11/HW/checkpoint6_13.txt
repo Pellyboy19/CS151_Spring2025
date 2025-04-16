@@ -1,0 +1,5 @@
+Write a header for a function named days. The function should return an int
+and have three int parameters: years, months, and weeks.
+
+ANSWER BELOW
+*****************************************************************

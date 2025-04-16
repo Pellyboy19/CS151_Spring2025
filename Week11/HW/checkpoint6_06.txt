@@ -1,0 +1,6 @@
+Write a function named timesTen. The function should have an integer parameter
+named number. When timesTen is called, it should display the product of number
+times ten. (Note: Just write the function. Do not write a complete program.)
+
+ANSWER BELOW
+*****************************************************************

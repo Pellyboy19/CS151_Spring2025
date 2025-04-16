@@ -1,0 +1,4 @@
+How many return values may a function have?
+
+ANSWER BELOW
+*****************************************************************

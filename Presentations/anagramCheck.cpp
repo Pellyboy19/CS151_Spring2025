@@ -1,5 +1,5 @@
 /*
-    define a function that takes two strings as input and returns true if they are anagrams of each other.
+    Define a function that takes two strings as input and returns true if they are anagrams of each other.
     Otherwise, it returns false.
     An anagram is a word formed by rearranging the letters of a different word, using all the original letters exactly once.
     For example, "listen" and "silent" are anagrams of each other.
@@ -10,12 +10,13 @@
 
 #include <iostream>
 #include <string>
+#include <cctype>
 #include <cassert>
 #include "_functions.h"
 
-
 using namespace std;
 using namespace Presentations;
+
 void anagramCheckTest();
 
 bool anagramCheck(const string& str1, const string& str2); // <<<<<<<<<<<<<< HERE <<<<<<<<<<<<<<
@@ -23,17 +24,7 @@ bool anagramCheck(const string& str1, const string& str2); // <<<<<<<<<<<<<< HER
 int main()
 {
     anagramCheckTest();
-    string str1, str2;
-    cout << "Enter two strings (separated by a space) and I will tell you if they are anagrams: ";
-    cin >> str1 >> str2;
-    if (anagramCheck(str1, str2))
-    {
-        cout << "The strings are anagrams." << endl;
-    }
-    else
-    {
-        cout << "The strings are not anagrams." << endl;
-    }
+      
     return 0;
 }
 

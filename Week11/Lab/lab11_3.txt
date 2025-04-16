@@ -1,0 +1,31 @@
+Average Die Rolls
+
+Create a file in Week11/Lab called rolls.cpp
+
+Write a program that simulates rolling a die 10 times and calculates the average of the rolls.
+Theoretically, the average die roll should be 3.5.
+
+Write a function called rollDie() that simulates rolling a die and returns the result.
+The function should use the rand() function to generate a random number between 1 and 6.
+The function should take no parameters and return an integer.
+
+Write a function called calculateAverage() that takes an integer argument representing the number of rolls and returns the average of the rolls.
+The function should call the rollDie() function to generate the rolls and calculate the average.
+
+Write a function called absoluteValue() that takes a double argument and returns the absolute value of the argument.
+
+Write a function called percentError() that takes two double arguments representing the theoretical average and the calculated average.
+The function should return the percent error between the theoretical average and the calculated average using the formula:
+
+                    |theoretical average - calculated average| 
+percentError = 2 x -------------------------------------------- x 100
+                     theoretical average + calculated average
+
+The function should return a double value.
+Theoretical average = 3.5
+
+Your main function should call the calculateAverage() function to get the average of the rolls and save it in a variable.
+Then, it should call the percentError() function to calculate the percent error between the theoretical average and the calculated average.
+Finally, print the average of the rolls and the percent error to the console.
+Both values should be formatted to 2 decimal places with the percent error displayed with a percent sign.
+Increase the number of rolls to improve/decrease the percent error.

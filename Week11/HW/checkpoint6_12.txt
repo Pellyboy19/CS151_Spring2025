@@ -1,0 +1,5 @@
+Write a header for a function named distance. The function should return a
+double and have two double parameters: rate and time.
+
+ANSWER BELOW
+*****************************************************************

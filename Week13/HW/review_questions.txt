@@ -1,0 +1,128 @@
+32. Examine the following function header, and then write two different examples to call
+    the function:
+
+    double absolute ( double number );
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+33. The following statement calls a function named average. The average function returns
+    the average of all the arguments passed to the function. Write the function.
+
+    avg = average ( num1, num2, num3 );
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+34. A program contains the following function:
+
+    double velocity(double initial, double acceleration, double distance)
+    {
+        return initial * initial + 2 * acceleration * distance;
+    }
+
+    Write a statement that passes the values 10.0, 50.5, and 100 to this function and
+    assigns its return value to the variable final_velocity.
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+35. Write a function isValid that accepts an argument, grade. The function returns true
+    if grade is within the range A through F; otherwise it returns false.
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+36. A program contains the following function:
+
+    void display(int arg1, double arg2, char arg3)
+    {
+        cout << "Here are the values: "
+            << arg1 << " " << arg2 << " "
+            << arg3 << endl;
+    }
+    Write a statement that calls the procedure and passes the following variables to it:
+    
+    int age;
+    double income;
+    char initial;
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+37. Write a function named getNumber that uses a reference parameter variable to accept
+    an integer argument. The function should prompt the user to enter a number in the
+    range of 1 through 100. The input should be validated and stored in the parameter
+    variable.
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+Find the Errors
+
+Each of the following functions has errors. Locate as many errors as you can.
+
+56. int product ( int num1; int num2; int num3 )
+    {
+        return num1 * num2 * num3;
+    }
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+57. double athird ( double number )
+    {
+        int value = number / 3;
+        return value;
+    }
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+58. void area(int length = 30, int width)
+    {
+        return length * width;
+    }
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+59. void getValue(int value&)
+    {
+        cout << "Enter a value: ";
+        cin >> value&;
+    }
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************
+
+60. (Overloaded functions)
+
+    int getValue()
+    {
+        int inputValue;
+        cout << "Enter an integer: ";
+        cin >> inputValue;
+        return inputValue;
+    }
+    double getValue()
+    {
+        double inputValue;
+        cout << "Enter a floating-point number: ";
+        cin >> inputValue;
+        return inputValue;
+    }
+*****************************************************************************************
+ANSWER HERE
+
+*****************************************************************************************

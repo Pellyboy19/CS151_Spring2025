@@ -37,5 +37,6 @@ The function should use a loop to iterate through each character of the string a
 The function should return the modified string.
 The next character in the alphabet for z is a.
 The next character in the alphabet for Z is A.
+You can assume that the string contains only alphabetic characters.
 
 Write a main function that calls each of the above functions with appropriate arguments and prints the results to the console.

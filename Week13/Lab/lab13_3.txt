@@ -1,0 +1,38 @@
+Create a file in Week13/Lab called account.cpp
+
+Write a boolean function called validPin() that has a constant string reference parameter
+    called pin and returns true if the pin is a 4-digit number, and false otherwise.
+    The function should check if the pin is a 4-digit number by checking if it contains
+    only digits and has a length of 4.
+
+Write a boolean function called changePIN() that has a string reference parameter
+    called currentPin and a constant string reference parameter called newPin.
+    The function should validate the new PIN by checking if it is a 4-digit number.
+    If the new PIN is valid and not equal to the current PIN the function should 
+    update the string reference parameter with the new PIN and return true.
+    If the new PIN is invalid or equal to the current PIN, the function should return false.
+
+Write a boolean function called deposit() that has a double reference parameter
+    called balance and a double parameter called amount.
+    The function should check if the amount is positive. If it is, the function should
+    add the amount to the balance and return true. If the amount is negative, the function
+    should return false.
+
+Write a boolean function called withdraw() that has a double reference parameter
+    called balance and a double parameter called amount.
+    The function should check if the amount is positive and less than or equal to the balance.
+    If it is, the function should subtract the amount from the balance and return true.
+    If the amount is negative or greater than the balance, the function should return false.
+
+Write a main function that declares a string variable called pin and initializes it to "1234".
+    The function should declare a double variable called balance and initializes it to 1000.0.
+    The function should call the changePIN() function with the current PIN and a new PIN of your choice.
+    If the function returns true, print "PIN changed successfully" to the console.
+    If the function returns false, print "PIN change failed" to the console.
+    The function should call the deposit() function with the balance and an amount of your choice.
+    If the function returns true, print "Deposit successful" to the console.
+    If the function returns false, print "Deposit failed" to the console.
+    The function should call the withdraw() function with the balance and an amount of your choice.
+    If the function returns true, print "Withdrawal successful" to the console.
+    If the function returns false, print "Withdrawal failed" to the console.
+    The function should print the final balance to the console.

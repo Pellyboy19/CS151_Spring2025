@@ -1,0 +1,22 @@
+Create a file in Week13/Lab called overload.cpp
+
+Write a function called add() that takes two characters as arguments and
+    returns a string that contains the two characters concatenated together.
+
+Write a function called add() that takes a character and an integer as arguments and returns
+    a string that contains the character repeated the number of times specified by the integer.
+
+Write function called area() that takes a double as an argument
+    and returns the area of a circle with that radius.
+    The function should use the formula area = pi * radius^2 to calculate the area.
+    The function should return the area as a double.
+    You can assume that the radius is a positive number.
+
+Write a function called area() that takes two doubles as arguments
+    and returns the area of a rectangle with those dimensions.
+    The function should use the formula area = length * width to calculate the area.
+    The function should return the area as a double.
+
+Write a main function that calls each of the above functions
+    with appropriate arguments and prints the results to the console.
+

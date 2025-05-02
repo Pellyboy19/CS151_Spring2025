@@ -4,6 +4,8 @@
     double absolute ( double number );
 *****************************************************************************************
 ANSWER HERE
+absolute(5.5);
+double result = absolute(-9.3);
 
 *****************************************************************************************
 
@@ -13,6 +15,10 @@ ANSWER HERE
     avg = average ( num1, num2, num3 );
 *****************************************************************************************
 ANSWER HERE
+double average(double num1, double num2, double num3)
+{
+    return (num1 + num2 + num3) / 3;
+}
 
 *****************************************************************************************
 
@@ -27,6 +33,7 @@ ANSWER HERE
     assigns its return value to the variable final_velocity.
 *****************************************************************************************
 ANSWER HERE
+double final_velocity = velocity(10.0, 50.5, 100);
 
 *****************************************************************************************
 
@@ -34,6 +41,10 @@ ANSWER HERE
     if grade is within the range A through F; otherwise it returns false.
 *****************************************************************************************
 ANSWER HERE
+bool isValid(char grade)
+{
+    return (grade >= 'A' && grade <= 'F');
+}
 
 *****************************************************************************************
 
@@ -52,6 +63,7 @@ ANSWER HERE
     char initial;
 *****************************************************************************************
 ANSWER HERE
+display(age, income, initial);
 
 *****************************************************************************************
 
@@ -61,6 +73,13 @@ ANSWER HERE
     variable.
 *****************************************************************************************
 ANSWER HERE
+void getNumber(int &number)
+{
+    do {
+        cout << "Enter a number between 1 and 100: ";
+        cin >> number;
+    } while (number < 1 || number > 100);
+}
 
 *****************************************************************************************
 
@@ -75,6 +94,11 @@ Each of the following functions has errors. Locate as many errors as you can.
 *****************************************************************************************
 ANSWER HERE
 
+int product(int num1, int num2, int num3)
+{
+    return num1 * num2 * num3;
+}
+
 *****************************************************************************************
 
 57. double athird ( double number )
@@ -85,6 +109,12 @@ ANSWER HERE
 *****************************************************************************************
 ANSWER HERE
 
+double athird(double number)
+{
+    double value = number / 3;
+    return value;
+}
+
 *****************************************************************************************
 
 58. void area(int length = 30, int width)
@@ -93,6 +123,11 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+
+void area(int width, int length = 30)
+{
+    cout << (length * width);
+}
 
 *****************************************************************************************
 
@@ -103,6 +138,12 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+
+void getValue(int &value)
+{
+    cout << "Enter a value: ";
+    cin >> value;
+}
 
 *****************************************************************************************
 
@@ -124,5 +165,21 @@ ANSWER HERE
     }
 *****************************************************************************************
 ANSWER HERE
+
+int getIntValue()
+{
+    int inputValue;
+    cout << "Enter an integer: ";
+    cin >> inputValue;
+    return inputValue;
+}
+
+double getDoubleValue()
+{
+    double inputValue;
+    cout << "Enter a floating-point number: ";
+    cin >> inputValue;
+    return inputValue;
+}
 
 *****************************************************************************************

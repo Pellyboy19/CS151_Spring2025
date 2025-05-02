@@ -1,7 +1,8 @@
 6.19:   What kinds of values may be specified as default arguments?
 **********************************************************************
 ANSWER HERE
-
+Only constants, global variables, or function calls that return constant values may be used as default arguments. 
+These values must be known at the time the function is compiled.
 **********************************************************************
 
 6.20:   Write the prototype and header for a function called compute. The function
@@ -11,6 +12,11 @@ ANSWER HERE
         parameter should not have a default argument.
 **********************************************************************
 ANSWER HERE
+Prototype
+void compute(double, int = 5, long = 65536);
+
+header
+void compute(double d, int i, long l)
 
 **********************************************************************
 
@@ -20,6 +26,11 @@ ANSWER HERE
         argument, which is 47.  
 **********************************************************************
 ANSWER HERE
+Prototype
+void calculate(long, double&, int = 47);
+
+header
+void calculate(long l, double& d, int i)
 
 **********************************************************************
 
@@ -46,6 +57,10 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
+5 10 15  
+9 10 15  
+6 15 15  
+4 11 16  
 
 **********************************************************************
 
@@ -88,6 +103,11 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
+0 0 0  
+Enter two numbers:  
+12 14 0  
+14 15 -1  
+14 15 -1  
 
 **********************************************************************
 
@@ -113,6 +133,7 @@ ANSWER HERE
         }
 **********************************************************************
 ANSWER HERE
+1.2  
 
 **********************************************************************
 
@@ -145,3 +166,5 @@ ANSWER HERE
         {
             return val1 * static_cast<int>(val2);
         }
+
+        30  

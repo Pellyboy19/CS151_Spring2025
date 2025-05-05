@@ -7,9 +7,9 @@ Define the following arrays:
 
 ANSWER BELOW
 ***********************************************************************
-(A) 
-(B) 
-(C) 
-(D) 
-(E) 
+(A) int empNums[100];
+(B) float payRates[25];
+(C) long miles[14];
+(D) string cityName[26];
+(E) double lightYears[1000];
 ************************************************************************

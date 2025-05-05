@@ -2,5 +2,8 @@ What is “array bounds checking”? Does C++ perform it?
 
 ANSWER BELOW
 ************************************************************************
+Array bounds checking means making sure that you don’t use a subscript that’s outside the valid range of an array (like using index 5 in a 4-element array).
 
+C++ does not perform array bounds checking.
+This means if you use an invalid subscript, the program might run but could give wrong results or crash. It’s up to the programmer to be careful.
 ************************************************************************

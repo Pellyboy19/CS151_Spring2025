@@ -12,8 +12,19 @@ What does each of the following display?
 
 ANSWER BELOW
 ************************************************************************
-(A) 
-(B) 
-(C) 
-(D) 
+(A) cout << values[2];
+Output: 10
+(Accesses the value at index 2)
+
+(B) cout << ++values[0];
+Output: 3
+(Pre-increments values[0] from 2 to 3, then prints 3)
+
+(C) cout << values[1]++;
+Output: 6
+(Post-increments values[1], prints 6, then changes it to 7)
+
+(D) x = 2;  
+cout << values[++x];
+
 ************************************************************************

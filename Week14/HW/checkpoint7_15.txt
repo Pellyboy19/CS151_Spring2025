@@ -2,5 +2,10 @@ When an array name is passed to a function, what is actually being passed?
 
 ANSWER BELOW
 ************************************************************************
+When an array name is passed to a function, what is actually being passed is the address of the first element in the array.
+
+This means the function receives a pointer to the array, not a copy of the array itself.
+As a result, any changes made to the array inside the function will affect the original array.
+
 
 ************************************************************************

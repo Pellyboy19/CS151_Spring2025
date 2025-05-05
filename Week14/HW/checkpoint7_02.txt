@@ -7,5 +7,12 @@ string names[size];
 
 ANSWER BELOW
 ************************************************************************
+int readings[-1];
+ You can't make an array with a negative number. Array sizes must be zero or more.
 
+float measurements[4.5];
+ The size of an array has to be a whole number. 4.5 is a decimal, which is not allowed.
+
+string names[size];
+ You can't use a regular variable like size to set an array length unless it's a constant. The size has to be known when the program is compiled.
 ************************************************************************

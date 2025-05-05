@@ -10,10 +10,15 @@ explain why.)
 
 ANSWER BELOW
 ************************************************************************
-(A) 
-(B) 
-(C) 
-(D) 
-(E) 
-(F) 
+(A)  Valid – All 10 elements are initialized with values.
+
+(B)  Invalid – Too many initializers (7 values) for a 5-element array.
+
+(C)  Valid – Only the first 2 elements are initialized; the rest default to 0.
+
+(D)  Invalid – Commas cannot be used to skip values without explicitly adding them (like using 0). Syntax is incorrect.
+
+(E)  Valid – Size is not declared, so it is automatically set to the number of initial values (5).
+
+(F)  Invalid – Size is not given, and no values are provided. Compiler doesn’t know how many elements to allocate.
 ************************************************************************

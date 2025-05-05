@@ -2,5 +2,9 @@ When used as function arguments, are arrays passed by value?
 
 ANSWER BELOW
 ************************************************************************
+No, arrays are not passed by value.
 
+When used as function arguments, arrays are passed by reference (actually as pointers to their first element).
+
+This means the function works with the original array, not a copy — so any changes made inside the function will affect the original array.
 ************************************************************************

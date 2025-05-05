@@ -2,5 +2,7 @@ What is the difference between an array’s size declarator and a subscript?
 
 ANSWER BELOW
 ************************************************************************
+The size declarator is the number used when you create the array. It tells how many elements the array can hold.
 
+The subscript is the index number used to access or change a specific element in the array. Subscripts start at 0 and go up to one less than the size.
 ************************************************************************

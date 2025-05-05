@@ -9,5 +9,8 @@ array2 = array1;
 
 ANSWER BELOW
 ************************************************************************
+No, the statement will NOT work.
 
+In C++, you cannot assign one array to another using the assignment operator (=).
+Arrays do not support direct assignment like that.
 ************************************************************************

@@ -21,7 +21,7 @@ int main()
         cin >> userNums[count];
     }
     cout << "The average of those numbers is ";
-    cout << avgArray(userNums, SIZE) << endl;
+    cout <<(userNums, SIZE) << endl;
     return 0;
 }
 //

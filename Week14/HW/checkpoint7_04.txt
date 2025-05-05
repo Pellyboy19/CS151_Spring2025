@@ -1,0 +1,6 @@
+What is the difference between an array’s size declarator and a subscript?
+
+ANSWER BELOW
+************************************************************************
+
+************************************************************************

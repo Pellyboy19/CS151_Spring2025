@@ -1,0 +1,19 @@
+Is each of the following a valid or invalid array definition? (If a definition is invalid,
+explain why.)
+
+(A) int numbers[10] = {0, 0, 1, 0, 0, 1, 0, 0, 1, 1};
+(B) int matrix[5] = {1, 2, 3, 4, 5, 6, 7};
+(C) double radii[10] = {3.2, 4.7};
+(D) int table[7] = {2, , , 27, , 45, 39};
+(E) char codes[] = {'A', 'X', '1', '2', 's'};
+(F) int blanks[];
+
+ANSWER BELOW
+************************************************************************
+(A) 
+(B) 
+(C) 
+(D) 
+(E) 
+(F) 
+************************************************************************

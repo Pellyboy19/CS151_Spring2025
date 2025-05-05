@@ -1,0 +1,19 @@
+Given the following array definition:
+
+int values[] = {2, 6, 10, 14};
+
+What does each of the following display?
+
+(A) cout << values[2];
+(B) cout << ++values[0];
+(C) cout << values[1]++;
+(D) x = 2;
+        cout << values[++x];
+
+ANSWER BELOW
+************************************************************************
+(A) 
+(B) 
+(C) 
+(D) 
+************************************************************************

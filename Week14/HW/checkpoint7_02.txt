@@ -1,0 +1,11 @@
+What’s wrong with the following array definitions?
+
+int readings[−1];
+float measurements[4.5];
+int size;
+string names[size];
+
+ANSWER BELOW
+************************************************************************
+
+************************************************************************

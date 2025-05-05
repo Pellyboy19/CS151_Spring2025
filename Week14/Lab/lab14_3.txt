@@ -1,0 +1,18 @@
+Create a file in Week14/Lab called clock.cpp
+
+Write a function called showTime() that has an int parameter called hours and an int
+parameter called minutes. Minutes should have a default value of 0.
+Assume the hours are in the range 0-23 and the minutes are in the range 0-59.
+The the function should return a string representing the time in the format 
+"hh:mm AM|PM" (AM or PM) where hh is the hour in the 2 digit
+12-hour format and mm is the minutes in the 2 digit format.
+
+Write a main function that will test the above function.
+The main function should call the showTime() function with the following values:
+showTime(0, 0);
+showTime(12, 0);
+showTime(23, 59);
+showTime(12, 59);
+showTime(13, 30);
+showTime(14);   
+showTime(15);

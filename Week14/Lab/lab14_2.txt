@@ -1,0 +1,17 @@
+Create a file in Week14/Lab called format.cpp
+
+Write a function called commas() that has an string parameter called amount.
+The function should return a string that represents the amount with commas
+separating the thousands. 
+For example, "1000" should be returned as "1,000", "1000000" should be returned
+as "1,000,000", and "1234567890" should be returned as "1,234,567,890".
+The function should handle negative numbers by adding a minus sign before the number.
+The function should not use any built in functions to format the amount.
+
+Write a function called load() that has a string array parameter called nums
+and an int parameter called size.
+The function should assign each element of the array a random number between 1000 and 9999.
+Each number should be formatted with commas using the commas() function.
+Use a char array that holds the numbers 0-9.
+
+Write a main function that will test the above functions.
